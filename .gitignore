@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
+!.env.example
