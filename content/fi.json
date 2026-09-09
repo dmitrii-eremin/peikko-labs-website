@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Castlefolk — Rakenna. Hallitse. Valloita.",
+    "description": "Castlefolk on lämminhenkinen pikselitaiteinen valtakuntastrategia. Rakenna asutuksia, kerää resursseja, kouluta armeijoita, taistele hirviöitä vastaan ja laajenna valtakuntaasi.",
+    "ogAlt": "Castlefolk-asutus metsän ympäröimänä, ritarit koottuina nurmelle"
+  },
+  "langName": "Suomi",
+  "nav": {
+    "game": "Peli",
+    "features": "Ominaisuudet",
+    "media": "Media",
+    "development": "Kehitys",
+    "links": "Linkit",
+    "menu": "Valikko",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko",
+    "language": "Kieli",
+    "chooseLanguage": "Valitse kieli",
+    "home": "Castlefolk-etusivu",
+    "skip": "Siirry sisältöön"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "Rakenna. Hallitse. Valloita.",
+    "lede": "Rakenna asutuksesi, kerää resursseja, kouluta armeija ja veistä oma valtakuntasi vaarallisesta keskiaikaisesta maailmasta.",
+    "wishlist": "Lisää Steam-toivelistalle",
+    "trailer": "Katso traileri",
+    "madeWith": "Pikselitaiteinen strategiapeli, tehty Godot 4:llä",
+    "imageAlt": "Castlefolk-kylä kivi- ja hirsitaloineen meren rannalla, nurmella ritari- ja keihäsmiesryhmiä"
+  },
+  "pitch": {
+    "heading": "Valtakunta yhdestä pienestä asutuksesta",
+    "build": {
+      "title": "Rakenna valtakuntasi",
+      "text": "Aloita pienestä asutuksesta ja kasvata siitä kukoistava valtakunta."
+    },
+    "gather": {
+      "title": "Kerää ja kasva",
+      "text": "Kaada puuta, metsästä lihaa ja louhi kultaa, jotta väkesi pysyy ruokittuna ja työn touhussa."
+    },
+    "army": {
+      "title": "Kokoa armeijasi",
+      "text": "Värvää sotureita, jousimiehiä, keihäsmiehiä ja munkkeja, ja kouluta heistä kunnon taistelujoukko."
+    },
+    "conquer": {
+      "title": "Puolusta ja valloita",
+      "text": "Taistele vaarallisia otuksia ja kilpailevia valtakuntia vastaan kartan herruudesta."
+    }
+  },
+  "features": {
+    "heading": "Mitä pääset tekemään",
+    "build": {
+      "title": "Rakenna",
+      "text": "Pystytä linnoja, taloja, kasarmeja, torneja, luostareita ja paljon muuta. Jokainen uusi rakennus muuttaa sen, mihin asutuksesi seuraavaksi pystyy.",
+      "imageAlt": "Rakennusvalikko auki asutuksen yllä, kaukana näkyy vihollisen linna"
+    },
+    "explore": {
+      "title": "Tutki",
+      "text": "Löydä metsiä, vuoria, jokia, rannikoita ja vaarallista erämaata. Kartta kätkee sekä resurssit että ne, jotka niitä vartioivat.",
+      "imageAlt": "Pergamenttikartta, jossa pelaajan vihreä alue kilpailijan violetin valtakunnan vieressä"
+    },
+    "manage": {
+      "title": "Hallitse",
+      "text": "Tasapainota väestö, resurssit, rakentaminen ja sotavoima. Jokainen koulutettu sotilas on kyläläinen, joka lakkaa keräämästä.",
+      "imageAlt": "Kasarmin käyttöliittymä varuskuntapaikkoineen ja yksikön koulutuspalkkeineen"
+    },
+    "fight": {
+      "title": "Taistele",
+      "text": "Komenna joukkojasi reaaliaikaisissa taisteluissa hirviöitä ja kilpailevia ruhtinaita vastaan. Asemat ratkaisevat yhtä paljon kuin lukumäärä.",
+      "imageAlt": "Ritarit taistelevat luurankosotureita ja minotaurosta vastaan puusillalla"
+    },
+    "expand": {
+      "title": "Laajene",
+      "text": "Perusta uusia asutuksia ja työnnä rajojasi ulospäin rannikolle ja kukkuloille.",
+      "imageAlt": "Pelaaja valitsee ritariryhmiä valintasuorakulmiolla"
+    },
+    "conquer": {
+      "title": "Valloita",
+      "text": "Kasvata pikkuruisesta asutuksesta valtakunta, joka kykenee hallitsemaan koko maailmaa.",
+      "imageAlt": "Suuri ritarien, keihäsmiesten ja jousimiesten armeija muodostelmassa avoimella nurmella"
+    }
+  },
+  "screenshots": {
+    "heading": "Kuvakaappaukset",
+    "lede": "Kaikki alla olevat kuvat ovat pelistä sellaisena kuin se on nyt.",
+    "captions": {
+      "overview": "Rannikkoasutus päivänä 99, ritarit valmiina marssimaan",
+      "build-menu": "Rakennusvalikko, horisontissa vihollisen linna",
+      "world-map": "Strategiakartta: sinun alueesi vihreänä, kilpailijan violettina",
+      "army": "Ritarien, keihäsmiesten ja jousimiesten armeija muodostelmassa",
+      "minotaur-battle": "Minotauros ja sen luurankojoukko vartioivat vastarantaa",
+      "barracks": "Kasarmin varuskunta ja yksiköiden koulutus",
+      "select-army": "Valitse ryhmäsi raahaamalla ja anna niille käskyjä",
+      "bestiary-minotaur": "Eläinkirjan merkintä minotauroksesta"
+    }
+  },
+  "lightbox": {
+    "open": "Suurenna kuvakaappaus",
+    "close": "Sulje",
+    "prev": "Edellinen kuvakaappaus",
+    "next": "Seuraava kuvakaappaus",
+    "counter": "Kuvakaappaus {current} / {total}",
+    "label": "Kuvakaappausten katselu"
+  },
+  "world": {
+    "heading": "Maailma, jota kannattaa hallita",
+    "lede": "Castlefolkia pelataan valtakunnan mittakaavassa. Muuriesi takana on metsiä raivattavaksi, rannikoita asutettavaksi, kilpailijoita ohitettavaksi — ja erämaassa otuksia, jotka syövät yksinäisen puunhakkaajan mielellään.",
+    "map": {
+      "title": "Yksi kartta, monta vaatimusta",
+      "text": "Loitonna pergamenttikartalle nähdäksesi koko maailman: oman alueesi, kilpailijasi alueen ja kaiken vielä vapaan siltä väliltä.",
+      "imageAlt": "Pergamenttinen strategiakartta, jossa vihreät ja violetit alueet on merkitty"
+    },
+    "monsters": {
+      "title": "Erämaa puree takaisin",
+      "text": "Hiidet, peikot, gnollit ja pahemmatkin pitävät hallussaan maata, jonka haluat. Osa niistä on riesa. Osa päättää retkikunnan.",
+      "imageAlt": "Luurankosotureita ja minotauros puolustamassa saarta sillan takana"
+    },
+    "bestiary": {
+      "title": "Tunne vihollisesi",
+      "text": "Jokaisella otuksella on eläinkirjan merkintä, jossa on tilastot ja hitusen liikaa luonnetta.",
+      "imageAlt": "Pergamenttinen eläinkirjakortti minotauroksesta: terveys, hyökkäys ja nopeus"
+    }
+  },
+  "media": {
+    "heading": "Media",
+    "lede": "Katso Castlefolk liikkeessä.",
+    "trailerTitle": "Castlefolk — virallinen traileri",
+    "play": "Toista video",
+    "playLabel": "Toista {title}",
+    "thumbAlt": "Videon {title} pikkukuva"
+  },
+  "roadmap": {
+    "heading": "Kehityksessä",
+    "lede": "Castlefolkia tehdään avoimesti. Tässä on se, mikä toimii jo, ja se, mikä on vielä työn alla. Ei päivämääriä — valmista tulee kun tulee hyvää.",
+    "done": "Valmis",
+    "wip": "Työn alla",
+    "statusLegend": "Tila",
+    "groups": {
+      "world": "Maailma",
+      "economy": "Talous",
+      "military": "Sotavoima",
+      "kingdom": "Valtakunta"
+    },
+    "items": {
+      "settlements": "Asutukset",
+      "roads": "Tiet",
+      "resourceNodes": "Resurssiesiintymät",
+      "gathering": "Resurssien keruu",
+      "population": "Väestösimulaatio",
+      "buildings": "Rakennusten kehittyminen",
+      "recruitment": "Yksiköiden värväys",
+      "enemyAi": "Vihollisen tekoäly",
+      "warfare": "Valtakuntien sodankäynti",
+      "aiKingdoms": "Tekoälyvaltakunnat",
+      "diplomacy": "Diplomatia",
+      "technologies": "Teknologiat",
+      "victory": "Voittoehdot"
+    }
+  },
+  "cta": {
+    "heading": "Valtakuntasi odottaa.",
+    "text": "Rakenna asutuksesi. Kokoa armeijasi. Puolusta väkeäsi. Valloita maailma.",
+    "button": "Lisää Castlefolk Steam-toivelistalle",
+    "note": "Toivelistalle lisääminen kertoo meille, että peliä halutaan, ja muistuttaa sinua julkaisupäivänä."
+  },
+  "links": {
+    "heading": "Seuraa kehitystä",
+    "lede": "Kehityspäivityksiä, klippejä ja satunnaisia katastrofeja.",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "Sähköposti"
+  },
+  "footer": {
+    "tagline": "Rakenna. Hallitse. Valloita.",
+    "madeBy": "Tehnyt Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk käyttää Pixel Frogin Tiny Swords -grafiikkaa.",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "Tämä sivu on saatavilla myös kielellä {language}.",
+    "switch": "Vaihda kieleen {language}",
+    "dismiss": "Sulje"
+  }
+}

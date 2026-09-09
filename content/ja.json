@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Castlefolk — 築き、治め、征服せよ。",
+    "description": "Castlefolk は、味わい深いドット絵の王国ストラテジー。集落を築き、資源を集め、軍を育て、モンスターと戦い、王国を広げよう。",
+    "ogAlt": "森に囲まれた Castlefolk の集落と、草地に集まった騎士たち"
+  },
+  "langName": "日本語",
+  "nav": {
+    "game": "ゲーム",
+    "features": "特徴",
+    "media": "メディア",
+    "development": "開発",
+    "links": "リンク",
+    "menu": "メニュー",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "language": "言語",
+    "chooseLanguage": "言語を選ぶ",
+    "home": "Castlefolk ホーム",
+    "skip": "本文へスキップ"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "築き、治め、征服せよ。",
+    "lede": "集落を築き、資源を集め、軍を興し、危険な中世世界から自分の王国を切り拓こう。",
+    "wishlist": "Steam でウィッシュリストに追加",
+    "trailer": "トレーラーを見る",
+    "madeWith": "Godot 4 で作られたドット絵ストラテジー",
+    "imageAlt": "海辺に石と木の家が並ぶ Castlefolk の村。草地には騎士と槍兵の部隊がいる"
+  },
+  "pitch": {
+    "heading": "小さな集落から、ひとつの王国へ",
+    "build": {
+      "title": "王国を築く",
+      "text": "小さな集落から始めて、栄える王国へと育てていこう。"
+    },
+    "gather": {
+      "title": "集めて、育てる",
+      "text": "木を伐り、肉を狩り、金を掘って、民を食べさせ働かせ続けよう。"
+    },
+    "army": {
+      "title": "軍を興す",
+      "text": "戦士、弓兵、槍兵、修道士を雇い、鍛え上げて戦える軍勢にしよう。"
+    },
+    "conquer": {
+      "title": "守り、征服する",
+      "text": "危険な魔物や敵対する王国と、マップの支配権をかけて戦おう。"
+    }
+  },
+  "features": {
+    "heading": "できること",
+    "build": {
+      "title": "建てる",
+      "text": "城、家、兵舎、塔、修道院などを建設しよう。建物がひとつ増えるたびに、集落が次にできることが変わっていく。",
+      "imageAlt": "集落の上に開かれた建設メニュー。遠くに敵の城が見える"
+    },
+    "explore": {
+      "title": "探索する",
+      "text": "森、山、川、海岸、そして危険な原野を切り拓こう。マップは資源も、それを守るものも隠している。",
+      "imageAlt": "羊皮紙の戦略マップ。自陣の緑の領土と、敵対勢力の紫の領土が並ぶ"
+    },
+    "manage": {
+      "title": "運営する",
+      "text": "人口、資源、建設、兵力のバランスを取ろう。兵士をひとり鍛えるということは、採集をやめる村人がひとり増えるということだ。",
+      "imageAlt": "駐屯枠とユニット訓練の進行バーが並ぶ兵舎の画面"
+    },
+    "fight": {
+      "title": "戦う",
+      "text": "モンスターや敵の領主とのリアルタイム戦闘で軍を指揮しよう。数と同じくらい、配置がものを言う。",
+      "imageAlt": "木の橋の上でスケルトン戦士とミノタウロスに立ち向かう騎士たち"
+    },
+    "expand": {
+      "title": "広げる",
+      "text": "新たな集落を興し、海岸沿いへ、丘の奥へと国境を押し広げよう。",
+      "imageAlt": "選択範囲の四角で騎士部隊をまとめて選ぶプレイヤー"
+    },
+    "conquer": {
+      "title": "征服する",
+      "text": "ちっぽけな集落を、世界すべてを治められる王国へと変えていこう。",
+      "imageAlt": "開けた草地に隊列を組む騎士・槍兵・弓兵の大軍"
+    }
+  },
+  "screenshots": {
+    "heading": "スクリーンショット",
+    "lede": "以下の画像はすべて、現在のゲームそのままの姿です。",
+    "captions": {
+      "overview": "99 日目の海辺の集落。騎士たちは出陣の準備を整えている",
+      "build-menu": "建設メニュー。地平線には敵の城",
+      "world-map": "戦略マップ。自分の領土は緑、敵の領土は紫",
+      "army": "隊列を組む騎士・槍兵・弓兵の軍勢",
+      "minotaur-battle": "ミノタウロスとスケルトンの一団が対岸を守っている",
+      "barracks": "兵舎の駐屯とユニットの訓練",
+      "select-army": "部隊をドラッグで選んで命令を出す",
+      "bestiary-minotaur": "ミノタウロスの魔物図鑑ページ"
+    }
+  },
+  "lightbox": {
+    "open": "スクリーンショットを拡大",
+    "close": "閉じる",
+    "prev": "前のスクリーンショット",
+    "next": "次のスクリーンショット",
+    "counter": "スクリーンショット {current} / {total}",
+    "label": "スクリーンショットビューア"
+  },
+  "world": {
+    "heading": "治めるに値する世界",
+    "lede": "Castlefolk は王国規模で遊ぶゲームです。城壁の外には、拓くべき森、拓くべき海岸、追い抜くべき敵の領主 — そして、ひとりきりの木こりを喜んで平らげる原野の住人たちが待っています。",
+    "map": {
+      "title": "ひとつのマップ、いくつもの領有権",
+      "text": "羊皮紙のマップまで引いて、世界の全体像を眺めよう。自分の領土、敵の領土、そしてその間に残された無主の地が見える。",
+      "imageAlt": "緑と紫の領土が記された羊皮紙の戦略マップ"
+    },
+    "monsters": {
+      "title": "原野は噛み返してくる",
+      "text": "ゴブリン、トロル、ノール、さらに厄介なものたちが、あなたの欲しい土地を押さえている。厄介事で済む相手もいれば、遠征そのものを終わらせる相手もいる。",
+      "imageAlt": "橋の向こうの島を守るスケルトン戦士とミノタウロス"
+    },
+    "bestiary": {
+      "title": "敵を知る",
+      "text": "どの魔物にも図鑑のページがあり、能力値と、少しばかり過剰な個性が記されている。",
+      "imageAlt": "体力・攻撃・速度が記されたミノタウロスの羊皮紙の図鑑カード"
+    }
+  },
+  "media": {
+    "heading": "メディア",
+    "lede": "動く Castlefolk を見てみよう。",
+    "trailerTitle": "Castlefolk — 公式トレーラー",
+    "play": "動画を再生",
+    "playLabel": "{title} を再生",
+    "thumbAlt": "{title} のサムネイル"
+  },
+  "roadmap": {
+    "heading": "開発中",
+    "lede": "Castlefolk は開かれた場所で作られています。すでに動いているものと、まだ作っているものは以下のとおり。日付は出しません — よくなったときが完成です。",
+    "done": "完了",
+    "wip": "作業中",
+    "statusLegend": "状態",
+    "groups": {
+      "world": "世界",
+      "economy": "経済",
+      "military": "軍事",
+      "kingdom": "王国"
+    },
+    "items": {
+      "settlements": "集落",
+      "roads": "道",
+      "resourceNodes": "資源地点",
+      "gathering": "資源の採集",
+      "population": "人口シミュレーション",
+      "buildings": "建物の発展",
+      "recruitment": "ユニットの雇用",
+      "enemyAi": "敵 AI",
+      "warfare": "王国間の戦争",
+      "aiKingdoms": "AI 王国",
+      "diplomacy": "外交",
+      "technologies": "技術",
+      "victory": "勝利条件"
+    }
+  },
+  "cta": {
+    "heading": "王国が待っている。",
+    "text": "集落を築こう。軍を興そう。民を守ろう。世界を征服しよう。",
+    "button": "Steam で Castlefolk をウィッシュリストに追加",
+    "note": "ウィッシュリストへの追加は開発の後押しになり、リリース当日にお知らせが届きます。"
+  },
+  "links": {
+    "heading": "開発を追う",
+    "lede": "開発の進捗、クリップ、ときどき起きる大惨事。",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "メール"
+  },
+  "footer": {
+    "tagline": "築き、治め、征服せよ。",
+    "madeBy": "制作: Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk は Pixel Frog による Tiny Swords アセットを使用しています。",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "このページは {language} でもご覧いただけます。",
+    "switch": "{language} に切り替える",
+    "dismiss": "閉じる"
+  }
+}

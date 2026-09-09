@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Castlefolk — Construye. Gobierna. Conquista.",
+    "description": "Castlefolk es un encantador juego de estrategia de reinos en pixel art. Construye asentamientos, reúne recursos, recluta ejércitos, combate monstruos y expande tu reino.",
+    "ogAlt": "Un asentamiento de Castlefolk rodeado de bosque, con caballeros agrupados sobre la hierba"
+  },
+  "langName": "Español",
+  "nav": {
+    "game": "Juego",
+    "features": "Características",
+    "media": "Medios",
+    "development": "Desarrollo",
+    "links": "Enlaces",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "chooseLanguage": "Elige un idioma",
+    "home": "Inicio de Castlefolk",
+    "skip": "Saltar al contenido"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "Construye. Gobierna. Conquista.",
+    "lede": "Levanta tu asentamiento, reúne recursos, forma un ejército y talla tu reino en un peligroso mundo medieval.",
+    "wishlist": "Añadir a la lista de deseados",
+    "trailer": "Ver el tráiler",
+    "madeWith": "Un juego de estrategia en pixel art hecho con Godot 4",
+    "imageAlt": "Una aldea de Castlefolk con casas de piedra y madera junto al mar, con escuadras de caballeros y lanceros sobre la hierba"
+  },
+  "pitch": {
+    "heading": "Un reino nacido de un pequeño asentamiento",
+    "build": {
+      "title": "Construye tu reino",
+      "text": "Empieza con un pequeño asentamiento y conviértelo en un reino próspero."
+    },
+    "gather": {
+      "title": "Reúne y prospera",
+      "text": "Tala madera, caza carne y extrae oro para mantener a tu gente alimentada y trabajando."
+    },
+    "army": {
+      "title": "Forma tu ejército",
+      "text": "Recluta guerreros, arqueros, lanceros y monjes, y conviértelos en una fuerza de combate."
+    },
+    "conquer": {
+      "title": "Defiende y conquista",
+      "text": "Lucha contra criaturas peligrosas y reinos rivales por el control del mapa."
+    }
+  },
+  "features": {
+    "heading": "Lo que vas a hacer",
+    "build": {
+      "title": "Construir",
+      "text": "Levanta castillos, casas, cuarteles, torres, monasterios y mucho más. Cada edificio que alzas cambia lo que tu asentamiento puede hacer después.",
+      "imageAlt": "El menú de construcción abierto sobre un asentamiento, con un castillo rival a lo lejos"
+    },
+    "explore": {
+      "title": "Explorar",
+      "text": "Descubre bosques, montañas, ríos, costas y territorios salvajes. El mapa esconde tanto los recursos como aquello que los custodia.",
+      "imageAlt": "El mapa estratégico de pergamino con el territorio verde propio junto al reino púrpura rival"
+    },
+    "manage": {
+      "title": "Gestionar",
+      "text": "Equilibra población, recursos, construcción y fuerza militar. Cada soldado que entrenas es un aldeano que deja de recolectar.",
+      "imageAlt": "La interfaz del cuartel con las plazas de guarnición y una barra de entrenamiento de unidades"
+    },
+    "fight": {
+      "title": "Combatir",
+      "text": "Dirige a tus fuerzas en batallas en tiempo real contra monstruos y señores rivales. La posición importa tanto como el número.",
+      "imageAlt": "Caballeros luchando contra guerreros esqueleto y un minotauro sobre un puente de madera"
+    },
+    "expand": {
+      "title": "Expandir",
+      "text": "Funda nuevos asentamientos y empuja tus fronteras por la costa y hacia las colinas.",
+      "imageAlt": "Un jugador seleccionando escuadras de caballeros con un rectángulo de selección"
+    },
+    "conquer": {
+      "title": "Conquistar",
+      "text": "Convierte un asentamiento diminuto en un reino capaz de gobernar el mundo entero.",
+      "imageAlt": "Un gran ejército de caballeros, lanceros y arqueros formado en campo abierto"
+    }
+  },
+  "screenshots": {
+    "heading": "Capturas",
+    "lede": "Todas las imágenes son del juego tal y como se juega hoy.",
+    "captions": {
+      "overview": "Un asentamiento costero en el día 99, con los caballeros listos para marchar",
+      "build-menu": "El menú de construcción, con un castillo rival en el horizonte",
+      "world-map": "El mapa estratégico: tu territorio en verde, el de tu rival en púrpura",
+      "army": "Un ejército de caballeros, lanceros y arqueros en formación",
+      "minotaur-battle": "Un minotauro y su banda de esqueletos guardan la orilla opuesta",
+      "barracks": "Guarnición del cuartel y entrenamiento de unidades",
+      "select-army": "Selecciona tus escuadras y dales órdenes",
+      "bestiary-minotaur": "La entrada del bestiario dedicada al minotauro"
+    }
+  },
+  "lightbox": {
+    "open": "Ampliar captura",
+    "close": "Cerrar",
+    "prev": "Captura anterior",
+    "next": "Captura siguiente",
+    "counter": "Captura {current} de {total}",
+    "label": "Visor de capturas"
+  },
+  "world": {
+    "heading": "Un mundo que merece gobernarse",
+    "lede": "Castlefolk se juega a escala de reino. Más allá de tus murallas hay bosques que talar, costas que poblar, señores rivales a los que superar — y cosas en la espesura que se comerán encantadas a un leñador solitario.",
+    "map": {
+      "title": "Un mapa, muchas reclamaciones",
+      "text": "Aleja la cámara hasta el mapa de pergamino para ver el mundo entero: tu territorio, el de tu rival y todo lo que sigue sin dueño entre ambos.",
+      "imageAlt": "El mapa estratégico de pergamino con los territorios verde y púrpura marcados"
+    },
+    "monsters": {
+      "title": "La espesura muerde",
+      "text": "Goblins, trolls, gnolls y cosas peores ocupan el terreno que quieres. Algunos son una molestia. Otros acaban con la expedición.",
+      "imageAlt": "Guerreros esqueleto y un minotauro defendiendo una isla al otro lado de un puente"
+    },
+    "bestiary": {
+      "title": "Conoce a tu enemigo",
+      "text": "Cada criatura tiene su entrada en el bestiario, con sus estadísticas y bastante más personalidad de la necesaria.",
+      "imageAlt": "Una ficha de bestiario en pergamino del minotauro con salud, ataque y velocidad"
+    }
+  },
+  "media": {
+    "heading": "Medios",
+    "lede": "Mira Castlefolk en movimiento.",
+    "trailerTitle": "Castlefolk — tráiler oficial",
+    "play": "Reproducir vídeo",
+    "playLabel": "Reproducir {title}",
+    "thumbAlt": "Miniatura del vídeo {title}"
+  },
+  "roadmap": {
+    "heading": "En desarrollo",
+    "lede": "Castlefolk se está haciendo a la vista de todos. Esto es lo que ya funciona y lo que sigue en obras. Sin fechas: estará listo cuando esté bien.",
+    "done": "Hecho",
+    "wip": "En curso",
+    "statusLegend": "Estado",
+    "groups": {
+      "world": "Mundo",
+      "economy": "Economía",
+      "military": "Ejército",
+      "kingdom": "Reino"
+    },
+    "items": {
+      "settlements": "Asentamientos",
+      "roads": "Caminos",
+      "resourceNodes": "Yacimientos de recursos",
+      "gathering": "Recolección de recursos",
+      "population": "Simulación de población",
+      "buildings": "Progresión de edificios",
+      "recruitment": "Reclutamiento de unidades",
+      "enemyAi": "IA enemiga",
+      "warfare": "Guerra entre reinos",
+      "aiKingdoms": "Reinos con IA",
+      "diplomacy": "Diplomacia",
+      "technologies": "Tecnologías",
+      "victory": "Condiciones de victoria"
+    }
+  },
+  "cta": {
+    "heading": "Tu reino te espera.",
+    "text": "Levanta tu asentamiento. Forma tu ejército. Defiende a tu gente. Conquista el mundo.",
+    "button": "Añadir Castlefolk a deseados en Steam",
+    "note": "Añadirlo a deseados nos dice que la gente lo quiere, y te avisa el día del lanzamiento."
+  },
+  "links": {
+    "heading": "Sigue el desarrollo",
+    "lede": "Novedades de desarrollo, clips y algún que otro desastre.",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "Correo"
+  },
+  "footer": {
+    "tagline": "Construye. Gobierna. Conquista.",
+    "madeBy": "Hecho por Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk usa los recursos Tiny Swords de Pixel Frog.",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "Esta página también está disponible en {language}.",
+    "switch": "Cambiar a {language}",
+    "dismiss": "Descartar"
+  }
+}

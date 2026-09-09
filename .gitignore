@@ -9,3 +9,9 @@
 .env
 .env.*
 !.env.example
+
+# Large source assets. Only the optimized derivatives in static/img/ are committed;
+# regenerate them with tools/optimize-images.py after changing anything here.
+/static/screenshots/
+/static/*.png
+/static/fonts/*.ttf

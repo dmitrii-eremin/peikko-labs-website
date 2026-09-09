@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Castlefolk — Build. Rule. Conquer.",
+    "description": "Castlefolk is a charming pixel-art kingdom strategy game. Build settlements, gather resources, raise armies, battle monsters and expand your kingdom.",
+    "ogAlt": "A Castlefolk settlement surrounded by forest, with knights massed on the grass"
+  },
+  "langName": "English",
+  "nav": {
+    "game": "Game",
+    "features": "Features",
+    "media": "Media",
+    "development": "Development",
+    "links": "Links",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "chooseLanguage": "Choose a language",
+    "home": "Castlefolk home",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "Build. Rule. Conquer.",
+    "lede": "Build your settlement, gather resources, raise an army, and carve your kingdom out of a dangerous medieval world.",
+    "wishlist": "Wishlist on Steam",
+    "trailer": "Watch trailer",
+    "madeWith": "A pixel-art strategy game made with Godot 4",
+    "imageAlt": "A Castlefolk village of stone and timber houses beside the sea, with squads of knights and spearmen on the grass"
+  },
+  "pitch": {
+    "heading": "A kingdom, from one small settlement",
+    "build": {
+      "title": "Build your kingdom",
+      "text": "Start with a small settlement and turn it into a thriving kingdom."
+    },
+    "gather": {
+      "title": "Gather & grow",
+      "text": "Harvest wood, hunt for meat and mine gold to keep your people fed and working."
+    },
+    "army": {
+      "title": "Raise your army",
+      "text": "Recruit warriors, archers, lancers and monks, then drill them into a fighting force."
+    },
+    "conquer": {
+      "title": "Defend & conquer",
+      "text": "Fight dangerous creatures and rival kingdoms for control of the map."
+    }
+  },
+  "features": {
+    "heading": "What you will do",
+    "build": {
+      "title": "Build",
+      "text": "Construct castles, houses, barracks, towers, monasteries and more. Every building you raise changes what your settlement can do next.",
+      "imageAlt": "The build menu open over a settlement, with a rival castle visible in the distance"
+    },
+    "explore": {
+      "title": "Explore",
+      "text": "Discover forests, mountains, rivers, coastlines and dangerous wilderness. The map hides both resources and the things that guard them.",
+      "imageAlt": "The parchment strategy map showing friendly green territory beside a rival purple kingdom"
+    },
+    "manage": {
+      "title": "Manage",
+      "text": "Balance population, resources, construction and military strength. Every soldier you train is a villager who stops gathering.",
+      "imageAlt": "The barracks interface with garrison slots and a unit training progress bar"
+    },
+    "fight": {
+      "title": "Fight",
+      "text": "Command your forces in real-time battles against monsters and rival lords. Position matters as much as numbers.",
+      "imageAlt": "Knights fighting skeleton warriors and a minotaur across a wooden bridge"
+    },
+    "expand": {
+      "title": "Expand",
+      "text": "Establish new settlements and push your borders outward across the coastline and into the hills.",
+      "imageAlt": "A player drag-selecting squads of knights with a selection rectangle"
+    },
+    "conquer": {
+      "title": "Conquer",
+      "text": "Turn a tiny settlement into a kingdom capable of ruling the entire world.",
+      "imageAlt": "A large army of knights, spearmen and archers formed up on open grass"
+    }
+  },
+  "screenshots": {
+    "heading": "Screenshots",
+    "lede": "Every image below is from the game as it plays today.",
+    "captions": {
+      "overview": "A coastal settlement at day 99, with knights ready to march",
+      "build-menu": "The build menu, with a rival castle on the horizon",
+      "world-map": "The strategy map: your territory in green, your rival's in purple",
+      "army": "An army of knights, spearmen and archers in formation",
+      "minotaur-battle": "A minotaur and its skeleton warband guard the far shore",
+      "barracks": "Barracks garrison and unit training",
+      "select-army": "Drag-select your squads and give them orders",
+      "bestiary-minotaur": "The bestiary entry for the minotaur"
+    }
+  },
+  "lightbox": {
+    "open": "Enlarge screenshot",
+    "close": "Close",
+    "prev": "Previous screenshot",
+    "next": "Next screenshot",
+    "counter": "Screenshot {current} of {total}",
+    "label": "Screenshot viewer"
+  },
+  "world": {
+    "heading": "A world worth ruling",
+    "lede": "Castlefolk is played at kingdom scale. Beyond your walls there are forests to clear, coastlines to settle, rival lords to outgrow — and things in the wilderness that will happily eat a lone woodcutter.",
+    "map": {
+      "title": "One map, many claims",
+      "text": "Zoom out to the parchment map to see the whole world: your territory, your rival's, and everything still unclaimed between them.",
+      "imageAlt": "The parchment strategy map with green and purple territories marked"
+    },
+    "monsters": {
+      "title": "The wilderness bites back",
+      "text": "Goblins, trolls, gnolls and worse hold the ground you want. Some of them are a nuisance. Some of them end an expedition.",
+      "imageAlt": "Skeleton warriors and a minotaur defending an island across a bridge"
+    },
+    "bestiary": {
+      "title": "Know your enemy",
+      "text": "Every creature has a bestiary entry with its stats and a little too much personality.",
+      "imageAlt": "A parchment bestiary card for the minotaur showing health, attack and speed"
+    }
+  },
+  "media": {
+    "heading": "Media",
+    "lede": "See Castlefolk in motion.",
+    "trailerTitle": "Castlefolk — official trailer",
+    "play": "Play video",
+    "playLabel": "Play {title}",
+    "thumbAlt": "Video thumbnail for {title}"
+  },
+  "roadmap": {
+    "heading": "In development",
+    "lede": "Castlefolk is being built in the open. Here is what works today and what is still being made. No dates — it is ready when it is good.",
+    "done": "Done",
+    "wip": "In progress",
+    "statusLegend": "Status",
+    "groups": {
+      "world": "World",
+      "economy": "Economy",
+      "military": "Military",
+      "kingdom": "Kingdom"
+    },
+    "items": {
+      "settlements": "Settlements",
+      "roads": "Roads",
+      "resourceNodes": "Resource nodes",
+      "gathering": "Resource gathering",
+      "population": "Population simulation",
+      "buildings": "Building progression",
+      "recruitment": "Unit recruitment",
+      "enemyAi": "Enemy AI",
+      "warfare": "Kingdom warfare",
+      "aiKingdoms": "AI kingdoms",
+      "diplomacy": "Diplomacy",
+      "technologies": "Technologies",
+      "victory": "Victory conditions"
+    }
+  },
+  "cta": {
+    "heading": "Your kingdom awaits.",
+    "text": "Build your settlement. Raise your army. Defend your people. Conquer the world.",
+    "button": "Wishlist Castlefolk on Steam",
+    "note": "Wishlisting tells us people want this, and reminds you the day it launches."
+  },
+  "links": {
+    "heading": "Follow along",
+    "lede": "Development updates, clips and the occasional disaster.",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "Email"
+  },
+  "footer": {
+    "tagline": "Build. Rule. Conquer.",
+    "madeBy": "Made by Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk uses Tiny Swords assets by Pixel Frog.",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "This page is also available in {language}.",
+    "switch": "Switch to {language}",
+    "dismiss": "Dismiss"
+  }
+}
