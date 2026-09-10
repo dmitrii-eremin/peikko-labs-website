@@ -1,90 +1,225 @@
 {
-  "_comment": "Language-independent configuration. Translated copy lives in content/<lang>.json. Any link with an empty url is omitted from the generated pages, along with any section left with nothing to show. Fill these in and re-run: node tools/gen.mjs",
-
+  "_comment": "Language-independent configuration. Translated copy lives in content/<lang>.json. Any link with an empty url is omitted from the generated pages, along with any section left with nothing to show. Fill these in and re-run: node tools/gen.mjs  NOTE: steamUrl is a placeholder pointing back at this site until the real Steam store page exists - replace it with the store.steampowered.com/app/... URL.",
   "origin": "https://peikkolabs.com",
   "defaultLang": "en",
   "languages": [
-    { "code": "en", "path": "/",    "name": "English" },
-    { "code": "ru", "path": "/ru/", "name": "Русский" },
-    { "code": "fi", "path": "/fi/", "name": "Suomi" },
-    { "code": "es", "path": "/es/", "name": "Español" },
-    { "code": "de", "path": "/de/", "name": "Deutsch" },
-    { "code": "ja", "path": "/ja/", "name": "日本語" }
+    {
+      "code": "en",
+      "path": "/",
+      "name": "English"
+    },
+    {
+      "code": "ru",
+      "path": "/ru/",
+      "name": "Русский"
+    },
+    {
+      "code": "fi",
+      "path": "/fi/",
+      "name": "Suomi"
+    },
+    {
+      "code": "es",
+      "path": "/es/",
+      "name": "Español"
+    },
+    {
+      "code": "de",
+      "path": "/de/",
+      "name": "Deutsch"
+    },
+    {
+      "code": "ja",
+      "path": "/ja/",
+      "name": "日本語"
+    }
   ],
-
-  "steamUrl": "",
+  "steamUrl": "https://peikkolabs.com/",
   "trailerId": "",
-
   "videos": [],
-
   "links": [
-    { "id": "steam",   "url": "" },
-    { "id": "youtube", "url": "" },
-    { "id": "tiktok",  "url": "" },
-    { "id": "discord", "url": "" },
-    { "id": "x",       "url": "" },
-    { "id": "github",  "url": "" },
-    { "id": "email",   "url": "" }
+    {
+      "id": "steam",
+      "url": ""
+    },
+    {
+      "id": "youtube",
+      "url": ""
+    },
+    {
+      "id": "tiktok",
+      "url": ""
+    },
+    {
+      "id": "discord",
+      "url": ""
+    },
+    {
+      "id": "x",
+      "url": ""
+    },
+    {
+      "id": "github",
+      "url": ""
+    },
+    {
+      "id": "email",
+      "url": ""
+    }
   ],
-
   "gallery": [
-    { "id": "overview",          "w": 1470, "h": 956 },
-    { "id": "build-menu",        "w": 1470, "h": 956 },
-    { "id": "world-map",         "w": 1470, "h": 956 },
-    { "id": "army",              "w": 1470, "h": 956 },
-    { "id": "minotaur-battle",   "w": 1470, "h": 956 },
-    { "id": "barracks",          "w": 1470, "h": 956 },
-    { "id": "select-army",       "w": 1470, "h": 956 },
-    { "id": "bestiary-minotaur", "w": 1470, "h": 956 }
+    {
+      "id": "overview",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "build-menu",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "world-map",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "army",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "minotaur-battle",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "barracks",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "select-army",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "bestiary-minotaur",
+      "w": 1470,
+      "h": 956
+    }
   ],
-
   "features": [
-    { "id": "build",   "image": "build-menu" },
-    { "id": "explore", "image": "world-map" },
-    { "id": "manage",  "image": "barracks" },
-    { "id": "fight",   "image": "minotaur-battle" },
-    { "id": "expand",  "image": "select-army" },
-    { "id": "conquer", "image": "army" }
+    {
+      "id": "build",
+      "image": "build-menu"
+    },
+    {
+      "id": "explore",
+      "image": "world-map"
+    },
+    {
+      "id": "manage",
+      "image": "barracks"
+    },
+    {
+      "id": "fight",
+      "image": "minotaur-battle"
+    },
+    {
+      "id": "expand",
+      "image": "select-army"
+    },
+    {
+      "id": "conquer",
+      "image": "army"
+    }
   ],
-
   "world": [
-    { "id": "map",      "image": "world-map" },
-    { "id": "monsters", "image": "minotaur-battle" },
-    { "id": "bestiary", "image": "bestiary-minotaur" }
+    {
+      "id": "map",
+      "image": "world-map"
+    },
+    {
+      "id": "monsters",
+      "image": "minotaur-battle"
+    },
+    {
+      "id": "bestiary",
+      "image": "bestiary-minotaur"
+    }
   ],
-
   "roadmap": [
     {
       "id": "world",
       "items": [
-        { "id": "settlements",    "status": "done" },
-        { "id": "roads",          "status": "done" },
-        { "id": "resourceNodes",  "status": "done" }
+        {
+          "id": "settlements",
+          "status": "done"
+        },
+        {
+          "id": "roads",
+          "status": "done"
+        },
+        {
+          "id": "resourceNodes",
+          "status": "done"
+        }
       ]
     },
     {
       "id": "economy",
       "items": [
-        { "id": "gathering",      "status": "done" },
-        { "id": "population",     "status": "wip" },
-        { "id": "buildings",      "status": "wip" }
+        {
+          "id": "gathering",
+          "status": "done"
+        },
+        {
+          "id": "population",
+          "status": "wip"
+        },
+        {
+          "id": "buildings",
+          "status": "wip"
+        }
       ]
     },
     {
       "id": "military",
       "items": [
-        { "id": "recruitment",    "status": "done" },
-        { "id": "enemyAi",        "status": "wip" },
-        { "id": "warfare",        "status": "wip" }
+        {
+          "id": "recruitment",
+          "status": "done"
+        },
+        {
+          "id": "enemyAi",
+          "status": "wip"
+        },
+        {
+          "id": "warfare",
+          "status": "wip"
+        }
       ]
     },
     {
       "id": "kingdom",
       "items": [
-        { "id": "aiKingdoms",     "status": "wip" },
-        { "id": "diplomacy",      "status": "wip" },
-        { "id": "technologies",   "status": "wip" },
-        { "id": "victory",        "status": "wip" }
+        {
+          "id": "aiKingdoms",
+          "status": "wip"
+        },
+        {
+          "id": "diplomacy",
+          "status": "wip"
+        },
+        {
+          "id": "technologies",
+          "status": "wip"
+        },
+        {
+          "id": "victory",
+          "status": "wip"
+        }
       ]
     }
   ]
