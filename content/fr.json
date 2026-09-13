@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Castlefolk — Bâtissez. Régnez. Conquérez.",
+    "description": "Castlefolk est un charmant jeu de stratégie en pixel art. Bâtissez des colonies, récoltez des ressources, levez des armées, affrontez des monstres et agrandissez votre royaume.",
+    "ogAlt": "Une colonie de Castlefolk entourée de forêt, avec des chevaliers rassemblés dans l’herbe"
+  },
+  "langName": "Français",
+  "nav": {
+    "game": "Le jeu",
+    "features": "Fonctionnalités",
+    "media": "Médias",
+    "development": "Développement",
+    "links": "Liens",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "chooseLanguage": "Choisir une langue",
+    "home": "Accueil de Castlefolk",
+    "skip": "Aller au contenu"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "Bâtissez. Régnez. Conquérez.",
+    "lede": "Bâtissez votre colonie, récoltez des ressources, levez une armée et taillez-vous un royaume dans un monde médiéval dangereux.",
+    "wishlist": "Ajouter à la liste de souhaits Steam",
+    "trailer": "Voir la bande-annonce",
+    "madeWith": "Un jeu de stratégie en pixel art créé avec Godot 4",
+    "imageAlt": "Un village de Castlefolk aux maisons de pierre et de bois en bord de mer, avec des escouades de chevaliers et de lanciers dans l’herbe"
+  },
+  "pitch": {
+    "heading": "Un royaume né d’une petite colonie",
+    "build": {
+      "title": "Bâtissez votre royaume",
+      "text": "Partez d’une petite colonie et faites-en un royaume prospère."
+    },
+    "gather": {
+      "title": "Récoltez et prospérez",
+      "text": "Coupez du bois, chassez pour la viande et extrayez de l’or pour nourrir votre peuple et le maintenir au travail."
+    },
+    "army": {
+      "title": "Levez votre armée",
+      "text": "Recrutez des guerriers, des archers, des lanciers et des moines, puis entraînez-les pour former une force de combat."
+    },
+    "conquer": {
+      "title": "Défendez et conquérez",
+      "text": "Affrontez des créatures dangereuses et des royaumes rivaux pour prendre le contrôle de la carte."
+    }
+  },
+  "features": {
+    "heading": "Ce qui vous attend",
+    "build": {
+      "title": "Bâtissez",
+      "text": "Construisez des châteaux, des maisons, des casernes, des tours, des monastères et bien plus. Chaque bâtiment ouvre de nouvelles possibilités à votre colonie.",
+      "imageAlt": "Le menu de construction ouvert au-dessus d’une colonie, avec un château rival au loin"
+    },
+    "explore": {
+      "title": "Explorez",
+      "text": "Découvrez des forêts, des montagnes, des rivières, des côtes et des terres sauvages dangereuses. La carte cache des ressources… et leurs gardiens.",
+      "imageAlt": "La carte stratégique sur parchemin montrant le territoire allié en vert à côté d’un royaume rival violet"
+    },
+    "manage": {
+      "title": "Gérez",
+      "text": "Équilibrez population, ressources, construction et puissance militaire. Chaque soldat entraîné est un villageois qui cesse de récolter.",
+      "imageAlt": "L’interface de la caserne avec les emplacements de garnison et une barre de progression de l’entraînement"
+    },
+    "fight": {
+      "title": "Combattez",
+      "text": "Commandez vos troupes dans des batailles en temps réel contre des monstres et des seigneurs rivaux. Le placement compte autant que le nombre.",
+      "imageAlt": "Des chevaliers affrontent des guerriers squelettes et un minotaure de part et d’autre d’un pont de bois"
+    },
+    "expand": {
+      "title": "Étendez-vous",
+      "text": "Fondez de nouvelles colonies et repoussez vos frontières le long des côtes et jusque dans les collines.",
+      "imageAlt": "Un joueur sélectionne des escouades de chevaliers en traçant un rectangle de sélection"
+    },
+    "conquer": {
+      "title": "Conquérez",
+      "text": "Transformez une minuscule colonie en un royaume capable de dominer le monde entier.",
+      "imageAlt": "Une grande armée de chevaliers, de lanciers et d’archers en formation dans une prairie"
+    }
+  },
+  "screenshots": {
+    "heading": "Captures d’écran",
+    "lede": "Toutes les images ci-dessous montrent le jeu dans son état actuel.",
+    "captions": {
+      "overview": "Une colonie côtière au jour 99, avec des chevaliers prêts à partir",
+      "build-menu": "Le menu de construction, avec un château rival à l’horizon",
+      "world-map": "La carte stratégique : votre territoire en vert, celui de votre rival en violet",
+      "army": "Une armée de chevaliers, de lanciers et d’archers en formation",
+      "minotaur-battle": "Un minotaure et sa troupe de squelettes gardent l’autre rive",
+      "barracks": "Garnison de la caserne et entraînement des unités",
+      "select-army": "Tracez une sélection autour de vos escouades et donnez-leur des ordres",
+      "bestiary-minotaur": "L’entrée du bestiaire consacrée au minotaure",
+      "settlement-troops": "Des troupes se rassemblent parmi les bâtiments d’une colonie côtière",
+      "purple-castle": "Un château violet et des tours de guet dominent une colonie animée",
+      "skeleton-island": "Des guerriers squelettes gardent une île et ses gisements d’or",
+      "spider-island": "Des araignées géantes parcourent des îles boisées reliées par un pont"
+    }
+  },
+  "lightbox": {
+    "open": "Agrandir la capture",
+    "close": "Fermer",
+    "prev": "Capture précédente",
+    "next": "Capture suivante",
+    "counter": "Capture {current} sur {total}",
+    "label": "Visionneuse de captures d’écran"
+  },
+  "world": {
+    "heading": "Un monde à votre mesure",
+    "lede": "Castlefolk se joue à l’échelle d’un royaume. Au-delà de vos murs, des forêts à défricher, des côtes à coloniser, des seigneurs rivaux à surpasser… et des créatures sauvages qui dévoreraient volontiers un bûcheron isolé.",
+    "map": {
+      "title": "Une carte, tant de prétendants",
+      "text": "Dézoomez jusqu’à la carte sur parchemin pour voir le monde entier : votre territoire, celui de votre rival et toutes les terres encore libres entre les deux.",
+      "imageAlt": "La carte stratégique sur parchemin avec les territoires vert et violet délimités"
+    },
+    "monsters": {
+      "title": "La nature montre les crocs",
+      "text": "Gobelins, trolls, gnolls et pire encore occupent les terres que vous convoitez. Certains sont une nuisance. D’autres mettent fin à une expédition.",
+      "imageAlt": "Des guerriers squelettes et un minotaure défendent une île de l’autre côté d’un pont"
+    },
+    "bestiary": {
+      "title": "Connaissez votre ennemi",
+      "text": "Chaque créature possède une entrée dans le bestiaire, avec ses statistiques et un peu trop de personnalité.",
+      "imageAlt": "Une fiche de bestiaire sur parchemin montrant la santé, l’attaque et la vitesse du minotaure"
+    }
+  },
+  "media": {
+    "heading": "Médias",
+    "lede": "Découvrez Castlefolk en mouvement.",
+    "trailerTitle": "Castlefolk — bande-annonce officielle",
+    "play": "Lire la vidéo",
+    "playLabel": "Lire {title}",
+    "thumbAlt": "Miniature de la vidéo {title}"
+  },
+  "roadmap": {
+    "heading": "En développement",
+    "lede": "Castlefolk se construit au grand jour. Voici ce qui fonctionne déjà et ce qui est encore en chantier. Pas de dates : le jeu sera prêt quand il sera à la hauteur.",
+    "done": "Terminé",
+    "wip": "En cours",
+    "statusLegend": "État",
+    "groups": {
+      "world": "Monde",
+      "economy": "Économie",
+      "military": "Armée",
+      "kingdom": "Royaume"
+    },
+    "items": {
+      "settlements": "Colonies",
+      "roads": "Routes",
+      "resourceNodes": "Sites de ressources",
+      "gathering": "Récolte de ressources",
+      "population": "Simulation de la population",
+      "buildings": "Évolution des bâtiments",
+      "recruitment": "Recrutement des unités",
+      "enemyAi": "IA ennemie",
+      "warfare": "Guerres entre royaumes",
+      "aiKingdoms": "Royaumes contrôlés par l’IA",
+      "diplomacy": "Diplomatie",
+      "technologies": "Technologies",
+      "victory": "Conditions de victoire"
+    }
+  },
+  "cta": {
+    "heading": "Votre royaume vous attend.",
+    "text": "Bâtissez votre colonie. Levez votre armée. Défendez votre peuple. Conquérez le monde.",
+    "button": "Ajouter Castlefolk à votre liste de souhaits Steam",
+    "note": "L’ajout à votre liste de souhaits nous montre votre intérêt et vous rappelle la sortie du jeu."
+  },
+  "links": {
+    "heading": "Suivez l’aventure",
+    "lede": "Des nouvelles du développement, des vidéos et quelques catastrophes.",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "E-mail"
+  },
+  "footer": {
+    "tagline": "Bâtissez. Régnez. Conquérez.",
+    "madeBy": "Créé par Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk utilise les ressources Tiny Swords de Pixel Frog.",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "Cette page est aussi disponible en {language}.",
+    "switch": "Passer à {language}",
+    "dismiss": "Masquer"
+  }
+}

@@ -88,31 +88,36 @@
 
     var available = {};
     picker.querySelectorAll("a[hreflang]").forEach(function (a) {
-      available[a.getAttribute("hreflang")] = a;
+      available[a.getAttribute("hreflang").toLowerCase()] = a;
     });
 
     var preferred = null;
     var navLangs = navigator.languages || [navigator.language || ""];
     for (var i = 0; i < navLangs.length; i++) {
-      var code = String(navLangs[i]).toLowerCase().split("-")[0];
-      if (available[code]) {
-        preferred = code;
+      var code = String(navLangs[i]).toLowerCase();
+      var baseCode = code.split("-")[0];
+      var match = available[code] ? code : available[baseCode] ? baseCode :
+        Object.keys(available).find(function (candidate) {
+          return candidate.split("-")[0] === baseCode;
+        });
+      if (match) {
+        preferred = match;
         break;
       }
     }
-    if (!preferred || preferred === pageLang) return;
+    if (!preferred || preferred === pageLang.toLowerCase()) return;
 
     var target = available[preferred];
     var node = tpl.content.cloneNode(true);
     var banner = node.querySelector(".banner");
     var link = node.querySelector(".banner__switch");
 
-    banner.lang = preferred;
+    banner.lang = target.getAttribute("hreflang");
     node.querySelector(".banner__text").textContent = target.dataset.bannerText;
     link.textContent = target.dataset.switchLabel;
     link.href = target.getAttribute("href") + location.hash;
     link.addEventListener("click", function () {
-      store(LANG_KEY, preferred);
+      store(LANG_KEY, target.getAttribute("hreflang"));
     });
     node.querySelector(".banner__dismiss").addEventListener("click", function () {
       store(BANNER_KEY, "1");

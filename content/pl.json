@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Castlefolk — Buduj. Rządź. Podbijaj.",
+    "description": "Castlefolk to urokliwa gra strategiczna w stylu pixel art. Buduj osady, zbieraj surowce, twórz armie, walcz z potworami i rozszerzaj swoje królestwo.",
+    "ogAlt": "Osada w Castlefolk otoczona lasem, z rycerzami zgromadzonymi na trawie"
+  },
+  "langName": "Polski",
+  "nav": {
+    "game": "Gra",
+    "features": "Rozgrywka",
+    "media": "Multimedia",
+    "development": "Rozwój",
+    "links": "Linki",
+    "menu": "Menu",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "language": "Język",
+    "chooseLanguage": "Wybierz język",
+    "home": "Strona główna Castlefolk",
+    "skip": "Przejdź do treści"
+  },
+  "hero": {
+    "wordmarkAlt": "Castlefolk",
+    "tagline": "Buduj. Rządź. Podbijaj.",
+    "lede": "Zbuduj osadę, zbieraj surowce, stwórz armię i wywalcz własne królestwo w niebezpiecznym średniowiecznym świecie.",
+    "wishlist": "Dodaj do listy życzeń na Steam",
+    "trailer": "Obejrzyj zwiastun",
+    "madeWith": "Gra strategiczna w stylu pixel art stworzona w Godot 4",
+    "imageAlt": "Nadmorska wioska w Castlefolk z domami z kamienia i drewna oraz oddziałami rycerzy i włóczników na trawie"
+  },
+  "pitch": {
+    "heading": "Królestwo z jednej małej osady",
+    "build": {
+      "title": "Zbuduj swoje królestwo",
+      "text": "Zacznij od małej osady i zmień ją w kwitnące królestwo."
+    },
+    "gather": {
+      "title": "Zbieraj i rozwijaj się",
+      "text": "Ścinaj drewno, poluj dla mięsa i wydobywaj złoto, by zapewnić swoim ludziom żywność i pracę."
+    },
+    "army": {
+      "title": "Stwórz swoją armię",
+      "text": "Rekrutuj wojowników, łuczników, włóczników i mnichów, a następnie wyszkol ich na siłę bojową."
+    },
+    "conquer": {
+      "title": "Broń i podbijaj",
+      "text": "Walcz z niebezpiecznymi stworzeniami i rywalizującymi królestwami o kontrolę nad mapą."
+    }
+  },
+  "features": {
+    "heading": "Co będziesz robić",
+    "build": {
+      "title": "Buduj",
+      "text": "Wznoś zamki, domy, koszary, wieże, klasztory i wiele więcej. Każdy nowy budynek otwiera przed twoją osadą kolejne możliwości.",
+      "imageAlt": "Menu budowy otwarte nad osadą, z zamkiem rywala widocznym w oddali"
+    },
+    "explore": {
+      "title": "Odkrywaj",
+      "text": "Odkrywaj lasy, góry, rzeki, wybrzeża i niebezpieczne dzikie tereny. Mapa skrywa surowce oraz stworzenia, które ich strzegą.",
+      "imageAlt": "Strategiczna mapa na pergaminie pokazująca zielone terytorium sojusznicze obok fioletowego królestwa rywala"
+    },
+    "manage": {
+      "title": "Zarządzaj",
+      "text": "Dbaj o równowagę między ludnością, surowcami, budową i siłą militarną. Każdy wyszkolony żołnierz to mieszkaniec, który przestaje zbierać surowce.",
+      "imageAlt": "Interfejs koszar z miejscami garnizonu i paskiem postępu szkolenia jednostek"
+    },
+    "fight": {
+      "title": "Walcz",
+      "text": "Dowódź swoimi siłami w bitwach w czasie rzeczywistym przeciw potworom i rywalizującym władcom. Ustawienie liczy się tak samo jak liczebność.",
+      "imageAlt": "Rycerze walczą ze szkieletowymi wojownikami i minotaurem po obu stronach drewnianego mostu"
+    },
+    "expand": {
+      "title": "Rozszerzaj granice",
+      "text": "Zakładaj nowe osady i przesuwaj granice wzdłuż wybrzeża oraz w głąb wzgórz.",
+      "imageAlt": "Gracz zaznacza oddziały rycerzy, przeciągając prostokąt zaznaczenia"
+    },
+    "conquer": {
+      "title": "Podbijaj",
+      "text": "Zmień maleńką osadę w królestwo zdolne władać całym światem.",
+      "imageAlt": "Wielka armia rycerzy, włóczników i łuczników ustawiona w szyku na trawie"
+    }
+  },
+  "screenshots": {
+    "heading": "Zrzuty ekranu",
+    "lede": "Wszystkie poniższe obrazy pochodzą z obecnej wersji gry.",
+    "captions": {
+      "overview": "Nadmorska osada w 99. dniu, z rycerzami gotowymi do wymarszu",
+      "build-menu": "Menu budowy z zamkiem rywala na horyzoncie",
+      "world-map": "Mapa strategiczna: twoje terytorium na zielono, terytorium rywala na fioletowo",
+      "army": "Armia rycerzy, włóczników i łuczników w szyku",
+      "minotaur-battle": "Minotaur i jego banda szkieletów strzegą drugiego brzegu",
+      "barracks": "Garnizon koszar i szkolenie jednostek",
+      "select-army": "Przeciągnij, aby zaznaczyć oddziały i wydać im rozkazy",
+      "bestiary-minotaur": "Wpis w bestiariuszu poświęcony minotaurowi",
+      "settlement-troops": "Wojska gromadzą się między budynkami nadmorskiej osady",
+      "purple-castle": "Fioletowy zamek i wieże strażnicze górują nad tętniącą życiem osadą",
+      "skeleton-island": "Szkieletowi wojownicy strzegą wyspy i jej złóż złota",
+      "spider-island": "Olbrzymie pająki przemierzają zalesione wyspy połączone mostem"
+    }
+  },
+  "lightbox": {
+    "open": "Powiększ zrzut ekranu",
+    "close": "Zamknij",
+    "prev": "Poprzedni zrzut ekranu",
+    "next": "Następny zrzut ekranu",
+    "counter": "Zrzut {current} z {total}",
+    "label": "Przeglądarka zrzutów ekranu"
+  },
+  "world": {
+    "heading": "Świat wart panowania",
+    "lede": "W Castlefolk grasz w skali całego królestwa. Za murami czekają lasy do wykarczowania, wybrzeża do zasiedlenia, rywalizujący władcy do prześcignięcia — i dzikie stworzenia, które chętnie pożrą samotnego drwala.",
+    "map": {
+      "title": "Jedna mapa, wielu pretendentów",
+      "text": "Oddal widok do mapy na pergaminie, by zobaczyć cały świat: swoje terytorium, ziemie rywala i wszystkie niczyje obszary pomiędzy nimi.",
+      "imageAlt": "Strategiczna mapa na pergaminie z zaznaczonymi zielonymi i fioletowymi terytoriami"
+    },
+    "monsters": {
+      "title": "Dzicz pokazuje kły",
+      "text": "Gobliny, trolle, gnolle i gorsze stworzenia zajmują ziemie, których pragniesz. Niektóre są utrapieniem. Inne kładą kres wyprawie.",
+      "imageAlt": "Szkieletowi wojownicy i minotaur bronią wyspy po drugiej stronie mostu"
+    },
+    "bestiary": {
+      "title": "Poznaj swojego wroga",
+      "text": "Każde stworzenie ma wpis w bestiariuszu ze statystykami i odrobinę zbyt wyrazistym charakterem.",
+      "imageAlt": "Pergaminowa karta bestiariusza przedstawiająca zdrowie, atak i szybkość minotaura"
+    }
+  },
+  "media": {
+    "heading": "Multimedia",
+    "lede": "Zobacz Castlefolk w ruchu.",
+    "trailerTitle": "Castlefolk — oficjalny zwiastun",
+    "play": "Odtwórz film",
+    "playLabel": "Odtwórz {title}",
+    "thumbAlt": "Miniatura filmu {title}"
+  },
+  "roadmap": {
+    "heading": "W trakcie tworzenia",
+    "lede": "Castlefolk powstaje na oczach graczy. Oto co już działa, a nad czym nadal pracujemy. Bez dat — gra będzie gotowa, gdy będzie dobra.",
+    "done": "Gotowe",
+    "wip": "W toku",
+    "statusLegend": "Status",
+    "groups": {
+      "world": "Świat",
+      "economy": "Gospodarka",
+      "military": "Wojsko",
+      "kingdom": "Królestwo"
+    },
+    "items": {
+      "settlements": "Osady",
+      "roads": "Drogi",
+      "resourceNodes": "Źródła surowców",
+      "gathering": "Zbieranie surowców",
+      "population": "Symulacja ludności",
+      "buildings": "Rozwój budynków",
+      "recruitment": "Rekrutacja jednostek",
+      "enemyAi": "SI przeciwnika",
+      "warfare": "Wojny między królestwami",
+      "aiKingdoms": "Królestwa sterowane przez SI",
+      "diplomacy": "Dyplomacja",
+      "technologies": "Technologie",
+      "victory": "Warunki zwycięstwa"
+    }
+  },
+  "cta": {
+    "heading": "Twoje królestwo czeka.",
+    "text": "Zbuduj osadę. Stwórz armię. Broń swoich ludzi. Podbij świat.",
+    "button": "Dodaj Castlefolk do listy życzeń na Steam",
+    "note": "Dodanie do listy życzeń pokazuje nam twoje zainteresowanie i przypomni ci o premierze."
+  },
+  "links": {
+    "heading": "Śledź postępy",
+    "lede": "Wieści z prac nad grą, filmy i okazjonalne katastrofy.",
+    "steam": "Steam",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "discord": "Discord",
+    "x": "X",
+    "github": "GitHub",
+    "email": "E-mail"
+  },
+  "footer": {
+    "tagline": "Buduj. Rządź. Podbijaj.",
+    "madeBy": "Gra autorstwa Peikko Labs",
+    "studioAlt": "Peikko Labs",
+    "attribution": "Castlefolk korzysta z zasobów Tiny Swords autorstwa Pixel Frog.",
+    "rights": "© {year} Peikko Labs"
+  },
+  "langBanner": {
+    "text": "Ta strona jest też dostępna w języku: {language}.",
+    "switch": "Zmień język na: {language}",
+    "dismiss": "Ukryj"
+  }
+}

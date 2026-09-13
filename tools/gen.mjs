@@ -202,7 +202,7 @@ function buildContext(lang) {
     lang: lang.code,
     langName: lang.name,
     canonical: urlFor(lang),
-    ogLocale: { en: "en_US", ru: "ru_RU", fi: "fi_FI", es: "es_ES", de: "de_DE", ja: "ja_JP" }[lang.code],
+    ogLocale: { en: "en_US", ru: "ru_RU", fi: "fi_FI", es: "es_ES", de: "de_DE", ja: "ja_JP", fr: "fr_FR", "pt-BR": "pt_BR", pl: "pl_PL", it: "it_IT" }[lang.code],
     year,
     rights: fmt(t.footer.rights, { year }),
     galleryCount: gallery.length,

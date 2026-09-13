@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 A static website for Peikko Labs, served by GitHub Pages from the repository root of the
 default branch. [CNAME](CNAME) points it at the custom domain `peikkolabs.com`.
 
-The root of the site is the **Castlefolk** landing page — a six-language marketing page
+The root of the site is the **Castlefolk** landing page — a ten-language marketing page
 whose primary conversion is a Steam wishlist. Peikko Labs is the studio credit in the
 footer, not a separate landing page.
 
@@ -20,7 +20,7 @@ python -m http.server 8000
 
 ## Generated pages — do not hand-edit
 
-`index.html` and `{ru,fi,es,de,ja}/index.html` are **generated**, along with `sitemap.xml`
+`index.html` and `{ru,fi,es,de,ja,fr,pt-BR,pl,it}/index.html` are **generated**, along with `sitemap.xml`
 and `robots.txt`. Editing them directly is always wrong; the next generator run discards
 the change. Instead edit the source and re-run:
 
@@ -38,7 +38,7 @@ GitHub Pages still serves committed HTML verbatim, so the site stays buildless.
 | [tools/template.html](tools/template.html) | Page structure and markup |
 | [static/site.css](static/site.css), [static/site.js](static/site.js) | Styling and behaviour (referenced directly, never generated) |
 
-All six `content/<lang>.json` files must carry an identical key structure — the generator
+All ten `content/<lang>.json` files must carry an identical key structure — the generator
 throws on a missing key rather than silently emitting English. `en` is the reference.
 
 The template language is a small mustache subset implemented in `tools/gen.mjs`:
@@ -74,9 +74,9 @@ Wisdom.ttf` and `scribish.ttf` are ASCII-only: no `ä`/`ö`, no Cyrillic, no CJK
 silently drop apostrophes and colons. They are not used anywhere, and should not be
 without checking coverage first.
 
-Patrick Hand covers Latin + Latin-1 + Latin Extended-A, so it serves en/fi/es/de. Russian
+Patrick Hand covers Latin + Latin-1 + Latin Extended-A, so it serves en/fi/es/de/fr/pt-BR/pl/it. Russian
 and Japanese headings fall back to system stacks via `:lang(ru)` / `:lang(ja)` rules in
-`site.css`. Any new display font must be checked against all six languages.
+`site.css`. Any new display font must be checked against all ten languages.
 
 ## Conventions
 

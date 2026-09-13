@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "static" / "fonts" / "PatrickHand-Regular.ttf"
 DST = ROOT / "static" / "fonts" / "patrick-hand.woff2"
 
-# Basic Latin + Latin-1 Supplement + Latin Extended-A (covers fi/es/de) + punctuation.
+# Basic Latin + Latin-1 Supplement + Latin Extended-A (covers fi/es/de/fr/pt-BR/pl/it) + punctuation.
 UNICODES = "U+0020-007E,U+00A0-00FF,U+0100-017F,U+2010-2027,U+2030-205E,U+20AC,U+2122"
 
 

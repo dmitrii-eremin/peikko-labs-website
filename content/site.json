@@ -32,6 +32,26 @@
       "code": "ja",
       "path": "/ja/",
       "name": "日本語"
+    },
+    {
+      "code": "fr",
+      "path": "/fr/",
+      "name": "Français"
+    },
+    {
+      "code": "pt-BR",
+      "path": "/pt-BR/",
+      "name": "Português (Brasil)"
+    },
+    {
+      "code": "pl",
+      "path": "/pl/",
+      "name": "Polski"
+    },
+    {
+      "code": "it",
+      "path": "/it/",
+      "name": "Italiano"
     }
   ],
   "steamUrl": "https://peikkolabs.com/",
