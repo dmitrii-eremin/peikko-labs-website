@@ -155,6 +155,7 @@ function buildContext(lang) {
 
   const gallery = site.gallery.map((g, i) => ({
     ...g,
+    thumbHeight: Math.round(g.h * 735 / g.w),
     caption: t.screenshots.captions[g.id] ?? "",
     number: i + 1,
   }));

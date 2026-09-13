@@ -107,6 +107,26 @@
       "id": "bestiary-minotaur",
       "w": 1470,
       "h": 956
+    },
+    {
+      "id": "settlement-troops",
+      "w": 1470,
+      "h": 891
+    },
+    {
+      "id": "purple-castle",
+      "w": 1470,
+      "h": 891
+    },
+    {
+      "id": "skeleton-island",
+      "w": 1470,
+      "h": 891
+    },
+    {
+      "id": "spider-island",
+      "w": 1470,
+      "h": 891
     }
   ],
   "features": [

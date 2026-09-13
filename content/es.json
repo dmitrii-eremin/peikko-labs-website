@@ -91,7 +91,11 @@
       "minotaur-battle": "Un minotauro y su banda de esqueletos guardan la orilla opuesta",
       "barracks": "Guarnición del cuartel y entrenamiento de unidades",
       "select-army": "Selecciona tus escuadras y dales órdenes",
-      "bestiary-minotaur": "La entrada del bestiario dedicada al minotauro"
+      "bestiary-minotaur": "La entrada del bestiario dedicada al minotauro",
+      "settlement-troops": "Las tropas se reúnen entre los edificios de un asentamiento costero",
+      "purple-castle": "Un castillo morado y torres de vigilancia dominan un animado asentamiento",
+      "skeleton-island": "Guerreros esqueleto custodian una isla y sus depósitos de oro",
+      "spider-island": "Arañas gigantes recorren islas boscosas conectadas por un puente"
     }
   },
   "lightbox": {

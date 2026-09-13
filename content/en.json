@@ -91,7 +91,11 @@
       "minotaur-battle": "A minotaur and its skeleton warband guard the far shore",
       "barracks": "Barracks garrison and unit training",
       "select-army": "Drag-select your squads and give them orders",
-      "bestiary-minotaur": "The bestiary entry for the minotaur"
+      "bestiary-minotaur": "The bestiary entry for the minotaur",
+      "settlement-troops": "Troops gather among the buildings of a coastal settlement",
+      "purple-castle": "A purple castle and watchtowers overlook a busy settlement",
+      "skeleton-island": "Skeleton warriors guard an island and its gold deposits",
+      "spider-island": "Giant spiders roam wooded islands linked by a bridge"
     }
   },
   "lightbox": {

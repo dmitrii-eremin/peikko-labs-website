@@ -91,7 +91,11 @@
       "minotaur-battle": "ミノタウロスとスケルトンの一団が対岸を守っている",
       "barracks": "兵舎の駐屯とユニットの訓練",
       "select-army": "部隊をドラッグで選んで命令を出す",
-      "bestiary-minotaur": "ミノタウロスの魔物図鑑ページ"
+      "bestiary-minotaur": "ミノタウロスの魔物図鑑ページ",
+      "settlement-troops": "海辺の集落の建物の間に集結する兵士たち",
+      "purple-castle": "にぎやかな集落を見下ろす紫の城と見張り塔",
+      "skeleton-island": "島と金鉱床を守るスケルトンの戦士たち",
+      "spider-island": "橋でつながった森の島々を徘徊する巨大グモ"
     }
   },
   "lightbox": {

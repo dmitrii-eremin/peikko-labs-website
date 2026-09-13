@@ -7,6 +7,7 @@ committed derivatives the site actually links to. Re-running is idempotent.
 """
 
 from pathlib import Path
+import argparse
 
 from PIL import Image
 
@@ -23,7 +24,16 @@ SCREENSHOTS = [
     "select-army",
     "world-map",
     "army",
+    "settlement-troops",
+    "purple-castle",
+    "skeleton-island",
+    "spider-island",
 ]
+
+# These captures include the macOS menu and window title bars.
+CROP_TOP = {name: 130 for name in (
+    "settlement-troops", "purple-castle", "skeleton-island", "spider-island"
+)}
 
 # Sources are 2940x1912 macOS Retina captures, i.e. a 1470px CSS-pixel window.
 # 1470 is therefore the native logical resolution: shown at up to 1470 CSS px it is
@@ -60,15 +70,21 @@ def cover_crop(im, size):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--screenshots", nargs="+", choices=SCREENSHOTS,
+                        help="Only regenerate the named screenshots (no other originals needed)")
+    args = parser.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     written = []
 
-    for name in SCREENSHOTS:
+    for name in args.screenshots or SCREENSHOTS:
         src = SRC / "screenshots" / f"{name}.png"
         if not src.exists():
             raise SystemExit(f"missing source: {src}")
         with Image.open(src) as im:
             im = im.convert("RGB")
+            if name in CROP_TOP:
+                im = im.crop((0, CROP_TOP[name], im.width, im.height))
             written.append(save_webp(resized(im, FULL_W), f"{name}.webp", 82))
             written.append(save_webp(resized(im, THUMB_W), f"{name}-thumb.webp", 80))
             if name in RETINA:
@@ -79,6 +95,11 @@ def main():
                 p = OUT / "og-cover.jpg"
                 cover_crop(im, OG_SIZE).save(p, "JPEG", quality=86, optimize=True)
                 written.append(p)
+
+    if args.screenshots:
+        for p in written:
+            print(f"{p.stat().st_size:>9,}  {p.relative_to(ROOT).as_posix()}")
+        return
 
     # Castlefolk wordmark - transparent, so keep alpha.
     with Image.open(SRC / "logo.png") as im:

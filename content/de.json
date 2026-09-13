@@ -91,7 +91,11 @@
       "minotaur-battle": "Ein Minotaurus und seine Skelettschar bewachen das gegenüberliegende Ufer",
       "barracks": "Kasernengarnison und Einheitenausbildung",
       "select-army": "Wähle deine Trupps mit der Maus aus und gib ihnen Befehle",
-      "bestiary-minotaur": "Der Bestiarium-Eintrag zum Minotaurus"
+      "bestiary-minotaur": "Der Bestiarium-Eintrag zum Minotaurus",
+      "settlement-troops": "Truppen sammeln sich zwischen den Gebäuden einer Küstensiedlung",
+      "purple-castle": "Eine violette Burg und Wachtürme überragen eine belebte Siedlung",
+      "skeleton-island": "Skelettkrieger bewachen eine Insel und ihre Goldvorkommen",
+      "spider-island": "Riesenspinnen durchstreifen bewaldete Inseln, die eine Brücke verbindet"
     }
   },
   "lightbox": {

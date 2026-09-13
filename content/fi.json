@@ -91,7 +91,11 @@
       "minotaur-battle": "Minotauros ja sen luurankojoukko vartioivat vastarantaa",
       "barracks": "Kasarmin varuskunta ja yksiköiden koulutus",
       "select-army": "Valitse ryhmäsi raahaamalla ja anna niille käskyjä",
-      "bestiary-minotaur": "Eläinkirjan merkintä minotauroksesta"
+      "bestiary-minotaur": "Eläinkirjan merkintä minotauroksesta",
+      "settlement-troops": "Joukot kokoontuvat rannikkoasutuksen rakennusten keskelle",
+      "purple-castle": "Violetti linna ja vartiotornit kohoavat vilkkaan asutuksen yllä",
+      "skeleton-island": "Luurankosoturit vartioivat saarta ja sen kultaesiintymiä",
+      "spider-island": "Jättiläishämähäkit vaeltavat sillan yhdistämillä metsäisillä saarilla"
     }
   },
   "lightbox": {
