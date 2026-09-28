@@ -216,11 +216,11 @@
         },
         {
           "id": "population",
-          "status": "wip"
+          "status": "done"
         },
         {
           "id": "buildings",
-          "status": "wip"
+          "status": "done"
         }
       ]
     },
@@ -233,11 +233,11 @@
         },
         {
           "id": "enemyAi",
-          "status": "wip"
+          "status": "done"
         },
         {
           "id": "warfare",
-          "status": "wip"
+          "status": "done"
         }
       ]
     },
@@ -246,7 +246,7 @@
       "items": [
         {
           "id": "aiKingdoms",
-          "status": "wip"
+          "status": "done"
         },
         {
           "id": "diplomacy",
@@ -258,7 +258,7 @@
         },
         {
           "id": "victory",
-          "status": "wip"
+          "status": "done"
         }
       ]
     }
