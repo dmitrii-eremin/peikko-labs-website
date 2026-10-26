@@ -633,6 +633,15 @@ a {
   border-radius: var(--radius);
   box-shadow: var(--shadow-lift);
 }
+/* Cards with no screenshot: a single-column parchment panel instead of a split band. */
+.band--text {
+  grid-template-columns: 1fr;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: #f7f0dc;
+  border: 3px solid var(--wood-dark);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lift);
+}
 .band__text {
   min-width: 0;
   overflow-wrap: break-word;
@@ -897,6 +906,14 @@ a {
   min-width: 0;
   overflow-wrap: anywhere;
   hyphens: auto;
+}
+.rm--planned .rm__mark {
+  background: transparent;
+  border: 2px solid var(--ink-faint);
+  color: var(--ink-faint);
+}
+.rm--planned .rm__label {
+  color: var(--ink-faint);
 }
 .rm--wip .rm__label {
   color: var(--ink-faint);

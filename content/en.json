@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Build. Rule. Conquer.",
-    "description": "Castlefolk is a charming pixel-art kingdom strategy game. Build settlements, gather resources, raise armies, battle monsters and expand your kingdom.",
+    "description": "A relaxed pixel-art strategy game: build a kingdom, command real-time battles, sail to new shores and face rival kingdoms that play by the same rules as you. 22 maps, 5 campaigns and a built-in map editor.",
     "ogAlt": "A Castlefolk settlement surrounded by forest, with knights massed on the grass"
   },
   "langName": "English",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Build. Rule. Conquer.",
-    "lede": "Build your settlement, gather resources, raise an army, and carve your kingdom out of a dangerous medieval world.",
+    "lede": "Build a settlement, feed your people, raise an army and sail out to take a crown, in a relaxed real-time strategy game that never rushes you.",
     "wishlist": "Wishlist on Steam",
     "trailer": "Watch trailer",
     "demo": "Free demo (coming soon)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "A kingdom, from one small settlement",
     "build": {
-      "title": "Build your kingdom",
-      "text": "Start with a small settlement and turn it into a thriving kingdom."
+      "title": "Build & grow",
+      "text": "Start with a small settlement and grow it into a kingdom, one house, tower and castle at a time."
     },
     "gather": {
-      "title": "Gather & grow",
-      "text": "Harvest wood, hunt for meat and mine gold to keep your people fed and working."
+      "title": "Gather & feed",
+      "text": "Harvest wood, herd sheep and mine gold. Everyone eats and every building has upkeep, so a bigger kingdom needs bigger supplies."
     },
     "army": {
       "title": "Raise your army",
-      "text": "Recruit warriors, archers, lancers and monks, then drill them into a fighting force."
+      "text": "Train pawns into warriors, archers, lancers and monks, and keep them fed, healed and out of trouble."
     },
     "conquer": {
-      "title": "Defend & conquer",
-      "text": "Fight dangerous creatures and rival kingdoms for control of the map."
+      "title": "Sail & conquer",
+      "text": "Fight monsters and rival kingdoms, on land and across the sea, for control of the map."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Construct castles, houses, barracks, towers, monasteries and more. Every building you raise changes what your settlement can do next.",
       "imageAlt": "The build menu open over a settlement, with a rival castle visible in the distance"
     },
-    "explore": {
-      "title": "Explore",
-      "text": "Discover forests, mountains, rivers, coastlines and dangerous wilderness. The map hides both resources and the things that guard them.",
-      "imageAlt": "The parchment strategy map showing friendly green territory beside a rival purple kingdom"
-    },
     "manage": {
       "title": "Manage",
-      "text": "Balance population, resources, construction and military strength. Every soldier you train is a villager who stops gathering.",
+      "text": "Balance population, housing, supply and military strength. Every soldier you train is a worker who stops gathering, and everyone has to eat.",
       "imageAlt": "The barracks interface with garrison slots and a unit training progress bar"
+    },
+    "command": {
+      "title": "Command",
+      "text": "Orders stick: units see them through, and you can see every one on the map. Order a whole territory cleared or harvested, and save groups to hotkeys.",
+      "imageAlt": "A player drag-selecting squads of knights with a selection rectangle"
     },
     "fight": {
       "title": "Fight",
       "text": "Command your forces in real-time battles against monsters and rival lords. Position matters as much as numbers.",
       "imageAlt": "Knights fighting skeleton warriors and a minotaur across a wooden bridge"
     },
-    "expand": {
-      "title": "Expand",
-      "text": "Establish new settlements and push your borders outward across the coastline and into the hills.",
-      "imageAlt": "A player drag-selecting squads of knights with a selection rectangle"
+    "sail": {
+      "title": "Sail",
+      "text": "Load up to six units onto a boat and cross the water. Fight from the deck, land on a hostile shore, and expect rival kingdoms to come at you by sea too.",
+      "imageAlt": "A small boat carrying two pawns towards an island held by skeleton warriors"
+    },
+    "campaigns": {
+      "title": "Campaigns",
+      "text": "Five campaigns across 17 maps, from your first humble settlement to the landing at Hastings, the field of Clontarf, the rock of Mont-Saint-Michel and the roads of Gaul. Plus five standalone maps for a quick game."
+    },
+    "create": {
+      "title": "Create",
+      "text": "Draw your own world in the built-in map editor, with islands, plateaus, bridges, creatures and rival kingdoms. Share it as a single file, and play maps made by others."
     },
     "conquer": {
       "title": "Conquer",
-      "text": "Turn a tiny settlement into a kingdom capable of ruling the entire world.",
+      "text": "Turn a tiny settlement into a kingdom capable of ruling the entire world. Rival kingdoms gather, build and raid by the same rules as you, so every win is earned.",
       "imageAlt": "A large army of knights, spearmen and archers formed up on open grass"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Screenshots",
     "lede": "Every image below is from the game as it plays today.",
     "captions": {
-      "overview": "A coastal settlement at day 99, with knights ready to march",
+      "overview": "A coastal settlement with knights ready to march",
       "build-menu": "The build menu, with a rival castle on the horizon",
       "world-map": "The strategy map: your territory in green, your rival's in purple",
       "army": "An army of knights, spearmen and archers in formation",
@@ -96,7 +104,11 @@
       "settlement-troops": "Troops gather among the buildings of a coastal settlement",
       "purple-castle": "A purple castle and watchtowers overlook a busy settlement",
       "skeleton-island": "Skeleton warriors guard an island and its gold deposits",
-      "spider-island": "Giant spiders roam wooded islands linked by a bridge"
+      "spider-island": "Giant spiders roam wooded islands linked by a bridge",
+      "boat-landing": "A boat of pawns sails towards an island held by skeleton warriors",
+      "plateau-fight": "A skirmish on terraced plateaus, with hits and misses floating over the fight",
+      "goblin-fight": "Goblin spearmen charge a knight patrol while the game log reports the attack",
+      "pawn-house": "A pawn house with free beds while thieves raid the stores"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Goblins, trolls, gnolls and worse hold the ground you want. Some of them are a nuisance. Some of them end an expedition.",
       "imageAlt": "Skeleton warriors and a minotaur defending an island across a bridge"
     },
-    "bestiary": {
-      "title": "Know your enemy",
-      "text": "Every creature has a bestiary entry with its stats and a little too much personality.",
-      "imageAlt": "A parchment bestiary card for the minotaur showing health, attack and speed"
+    "highlands": {
+      "title": "Cliffs and high ground",
+      "text": "Plateaus with cliffs and narrow stairs turn ridges into fortresses. A ridge is only as strong as its one staircase.",
+      "imageAlt": "Terraced plateaus with cliff walls, where units are fighting scarecrows"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "In development",
-    "lede": "Castlefolk is being built in the open. Here is what works today and what is still being made. No dates — it is ready when it is good.",
+    "lede": "Castlefolk is being built in the open. Everything ticked works in the game today; the open circles are ideas we plan to build. No dates — it is ready when it is good.",
     "done": "Done",
     "wip": "In progress",
+    "planned": "Planned",
     "statusLegend": "Status",
     "groups": {
       "world": "World",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Settlements",
-      "roads": "Roads",
-      "resourceNodes": "Resource nodes",
+      "seaTravel": "Boats and sea travel",
+      "plateaus": "Plateaus and stairs",
+      "mapEditor": "Map editor and map sharing",
       "gathering": "Resource gathering",
+      "upkeep": "Upkeep and hunger",
       "population": "Population simulation",
       "buildings": "Building progression",
       "recruitment": "Unit recruitment",
+      "orders": "Persistent orders and unit groups",
       "enemyAi": "Enemy AI",
-      "warfare": "Kingdom warfare",
+      "raids": "AI raids and defense",
       "aiKingdoms": "AI kingdoms",
+      "campaigns": "Campaigns and objectives",
+      "victory": "Victory conditions",
       "diplomacy": "Diplomacy",
-      "technologies": "Technologies",
-      "victory": "Victory conditions"
+      "technologies": "Technologies"
     }
   },
   "cta": {
     "heading": "Your kingdom awaits.",
-    "text": "Build your settlement. Raise your army. Defend your people. Conquer the world.",
+    "text": "Build your settlement. Raise your army. Sail across the water. Take the crown.",
     "button": "Wishlist Castlefolk on Steam",
     "note": "Wishlisting tells us people want this, and reminds you the day it launches."
   },

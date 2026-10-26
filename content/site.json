@@ -60,7 +60,7 @@
   "links": [
     {
       "id": "steam",
-      "url": ""
+      "url": "https://store.steampowered.com/app/5251590/"
     },
     {
       "id": "youtube",
@@ -147,6 +147,26 @@
       "id": "spider-island",
       "w": 1470,
       "h": 891
+    },
+    {
+      "id": "boat-landing",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "plateau-fight",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "goblin-fight",
+      "w": 1470,
+      "h": 956
+    },
+    {
+      "id": "pawn-house",
+      "w": 1470,
+      "h": 956
     }
   ],
   "features": [
@@ -155,20 +175,26 @@
       "image": "build-menu"
     },
     {
-      "id": "explore",
-      "image": "world-map"
-    },
-    {
       "id": "manage",
       "image": "barracks"
+    },
+    {
+      "id": "command",
+      "image": "select-army"
     },
     {
       "id": "fight",
       "image": "minotaur-battle"
     },
     {
-      "id": "expand",
-      "image": "select-army"
+      "id": "sail",
+      "image": "boat-landing"
+    },
+    {
+      "id": "campaigns"
+    },
+    {
+      "id": "create"
     },
     {
       "id": "conquer",
@@ -185,8 +211,8 @@
       "image": "minotaur-battle"
     },
     {
-      "id": "bestiary",
-      "image": "bestiary-minotaur"
+      "id": "highlands",
+      "image": "plateau-fight"
     }
   ],
   "roadmap": [
@@ -198,11 +224,15 @@
           "status": "done"
         },
         {
-          "id": "roads",
+          "id": "seaTravel",
           "status": "done"
         },
         {
-          "id": "resourceNodes",
+          "id": "plateaus",
+          "status": "done"
+        },
+        {
+          "id": "mapEditor",
           "status": "done"
         }
       ]
@@ -212,6 +242,10 @@
       "items": [
         {
           "id": "gathering",
+          "status": "done"
+        },
+        {
+          "id": "upkeep",
           "status": "done"
         },
         {
@@ -232,11 +266,15 @@
           "status": "done"
         },
         {
+          "id": "orders",
+          "status": "done"
+        },
+        {
           "id": "enemyAi",
           "status": "done"
         },
         {
-          "id": "warfare",
+          "id": "raids",
           "status": "done"
         }
       ]
@@ -249,16 +287,20 @@
           "status": "done"
         },
         {
-          "id": "diplomacy",
-          "status": "wip"
-        },
-        {
-          "id": "technologies",
-          "status": "wip"
+          "id": "campaigns",
+          "status": "done"
         },
         {
           "id": "victory",
           "status": "done"
+        },
+        {
+          "id": "diplomacy",
+          "status": "planned"
+        },
+        {
+          "id": "technologies",
+          "status": "planned"
         }
       ]
     }

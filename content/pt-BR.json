@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Construa. Governe. Conquiste.",
-    "description": "Castlefolk é um encantador jogo de estratégia em pixel art. Construa povoados, reúna recursos, forme exércitos, enfrente monstros e expanda seu reino.",
+    "description": "Um jogo de estratégia em pixel art, tranquilo: construa um reino, comande batalhas em tempo real, navegue até novas costas e enfrente reinos rivais que jogam pelas mesmas regras que você. 22 mapas, 5 campanhas e um editor de mapas integrado.",
     "ogAlt": "Um povoado de Castlefolk cercado por florestas, com cavaleiros reunidos no gramado"
   },
   "langName": "Português (Brasil)",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Construa. Governe. Conquiste.",
-    "lede": "Construa seu povoado, reúna recursos, forme um exército e conquiste seu espaço em um perigoso mundo medieval.",
+    "lede": "Construa um povoado, alimente seu povo, forme um exército e zarpe em busca de uma coroa, em um jogo de estratégia em tempo real tranquilo, que nunca te apressa.",
     "wishlist": "Adicionar à lista de desejos no Steam",
     "trailer": "Assistir ao trailer",
     "demo": "Demo grátis (em breve)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Um reino que começa com um pequeno povoado",
     "build": {
-      "title": "Construa seu reino",
-      "text": "Comece com um pequeno povoado e transforme-o em um reino próspero."
+      "title": "Construa e cresça",
+      "text": "Comece com um pequeno povoado e faça dele um reino, casa por casa, torre por torre, castelo por castelo."
     },
     "gather": {
-      "title": "Colete e cresça",
-      "text": "Corte madeira, cace para obter carne e extraia ouro para manter seu povo alimentado e trabalhando."
+      "title": "Colete e alimente",
+      "text": "Corte madeira, pastoreie ovelhas e extraia ouro. Todos comem e cada construção tem custo de manutenção, então um reino maior precisa de mais suprimentos."
     },
     "army": {
       "title": "Forme seu exército",
-      "text": "Recrute guerreiros, arqueiros, lanceiros e monges, depois treine-os para formar uma força de combate."
+      "text": "Treine trabalhadores como guerreiros, arqueiros, lanceiros e monges, e mantenha todos alimentados, curados e longe de encrenca."
     },
     "conquer": {
-      "title": "Defenda e conquiste",
-      "text": "Enfrente criaturas perigosas e reinos rivais pelo controle do mapa."
+      "title": "Navegue e conquiste",
+      "text": "Enfrente monstros e reinos rivais, em terra e do outro lado do mar, pelo controle do mapa."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Construa castelos, casas, quartéis, torres, mosteiros e muito mais. Cada construção abre novas possibilidades para seu povoado.",
       "imageAlt": "O menu de construção aberto sobre um povoado, com um castelo rival ao longe"
     },
-    "explore": {
-      "title": "Explore",
-      "text": "Descubra florestas, montanhas, rios, litorais e terras selvagens perigosas. O mapa esconde recursos e as criaturas que os protegem.",
-      "imageAlt": "O mapa estratégico em pergaminho mostra o território aliado verde ao lado de um reino rival roxo"
-    },
     "manage": {
       "title": "Administre",
-      "text": "Equilibre população, recursos, construções e força militar. Cada soldado que você treina é um aldeão que deixa de coletar recursos.",
+      "text": "Equilibre população, moradia, suprimentos e força militar. Cada soldado que você treina é um trabalhador que para de coletar, e todo mundo precisa comer.",
       "imageAlt": "A interface do quartel com espaços de guarnição e uma barra de progresso do treinamento de unidades"
+    },
+    "command": {
+      "title": "Comande",
+      "text": "As ordens persistem: as unidades as cumprem até o fim e você vê cada uma no mapa. Mande limpar ou coletar um território inteiro e salve grupos em atalhos de teclado.",
+      "imageAlt": "Um jogador seleciona grupos de cavaleiros arrastando um retângulo de seleção"
     },
     "fight": {
       "title": "Lute",
       "text": "Comande suas forças em batalhas em tempo real contra monstros e senhores rivais. O posicionamento importa tanto quanto os números.",
       "imageAlt": "Cavaleiros enfrentam guerreiros esqueletos e um minotauro dos dois lados de uma ponte de madeira"
     },
-    "expand": {
-      "title": "Expanda",
-      "text": "Funde novos povoados e avance suas fronteiras pelo litoral e pelas colinas.",
-      "imageAlt": "Um jogador seleciona grupos de cavaleiros arrastando um retângulo de seleção"
+    "sail": {
+      "title": "Navegue",
+      "text": "Coloque até seis unidades em um barco e atravesse a água. Lute do convés, desembarque em uma costa hostil e espere que os rivais também venham até você pelo mar.",
+      "imageAlt": "Um pequeno barco com dois trabalhadores a caminho de uma ilha dominada por guerreiros esqueleto"
+    },
+    "campaigns": {
+      "title": "Campanhas",
+      "text": "Cinco campanhas e 17 mapas, do seu primeiro humilde povoado ao desembarque em Hastings, o campo de Clontarf, o rochedo de Mont-Saint-Michel e as estradas da Gália. E cinco mapas avulsos para uma partida rápida."
+    },
+    "create": {
+      "title": "Crie",
+      "text": "Desenhe seu próprio mundo no editor de mapas integrado, com ilhas, planaltos, pontes, criaturas e reinos rivais. Compartilhe em um único arquivo e jogue mapas feitos por outras pessoas."
     },
     "conquer": {
       "title": "Conquiste",
-      "text": "Transforme um pequeno povoado em um reino capaz de dominar o mundo inteiro.",
+      "text": "Transforme um minúsculo povoado em um reino capaz de governar o mundo inteiro. Os reinos rivais coletam, constroem e atacam pelas mesmas regras que você, então toda vitória é merecida.",
       "imageAlt": "Um grande exército de cavaleiros, lanceiros e arqueiros em formação no gramado"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Capturas de tela",
     "lede": "Todas as imagens abaixo mostram o jogo como ele está hoje.",
     "captions": {
-      "overview": "Um povoado costeiro no dia 99, com cavaleiros prontos para marchar",
+      "overview": "Um povoado costeiro, com cavaleiros prontos para marchar",
       "build-menu": "O menu de construção, com um castelo rival no horizonte",
       "world-map": "O mapa estratégico: seu território em verde, o do rival em roxo",
       "army": "Um exército de cavaleiros, lanceiros e arqueiros em formação",
@@ -96,7 +104,11 @@
       "settlement-troops": "Tropas se reúnem entre os edifícios de um povoado costeiro",
       "purple-castle": "Um castelo roxo e torres de vigia dominam um povoado movimentado",
       "skeleton-island": "Guerreiros esqueletos guardam uma ilha e seus depósitos de ouro",
-      "spider-island": "Aranhas gigantes percorrem ilhas arborizadas ligadas por uma ponte"
+      "spider-island": "Aranhas gigantes percorrem ilhas arborizadas ligadas por uma ponte",
+      "boat-landing": "Um barco de trabalhadores navega rumo a uma ilha dominada por guerreiros esqueleto",
+      "plateau-fight": "Uma escaramuça em planaltos em terraços, com acertos e erros flutuando sobre a luta",
+      "goblin-fight": "Goblins com lança atacam uma patrulha de cavaleiros enquanto o registro avisa do ataque",
+      "pawn-house": "Uma casa de trabalhadores com camas livres enquanto ladrões saqueiam os estoques"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Goblins, trolls, gnolls e coisas piores ocupam as terras que você quer. Alguns são um incômodo. Outros acabam com uma expedição.",
       "imageAlt": "Guerreiros esqueletos e um minotauro defendem uma ilha do outro lado de uma ponte"
     },
-    "bestiary": {
-      "title": "Conheça seu inimigo",
-      "text": "Cada criatura tem uma entrada no bestiário com seus atributos e um pouco de personalidade demais.",
-      "imageAlt": "Uma ficha de bestiário em pergaminho mostra a vida, o ataque e a velocidade do minotauro"
+    "highlands": {
+      "title": "Penhascos e terras altas",
+      "text": "Planaltos com penhascos e escadas estreitas transformam cumes em fortalezas. Um cume é tão forte quanto sua única escada.",
+      "imageAlt": "Planaltos em terraços com paredes de penhasco, onde unidades lutam contra espantalhos"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "Em desenvolvimento",
-    "lede": "Castlefolk está sendo desenvolvido de forma aberta. Veja o que já funciona e o que ainda está sendo feito. Sem datas: estará pronto quando estiver bom.",
+    "lede": "Castlefolk está sendo desenvolvido de forma aberta. Tudo o que está marcado já funciona no jogo; os círculos vazios são ideias que pretendemos fazer. Sem datas: estará pronto quando estiver bom.",
     "done": "Concluído",
     "wip": "Em andamento",
+    "planned": "Planejado",
     "statusLegend": "Status",
     "groups": {
       "world": "Mundo",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Povoados",
-      "roads": "Estradas",
-      "resourceNodes": "Pontos de recursos",
+      "seaTravel": "Barcos e navegação",
+      "plateaus": "Planaltos e escadas",
+      "mapEditor": "Editor de mapas e compartilhamento",
       "gathering": "Coleta de recursos",
+      "upkeep": "Manutenção e fome",
       "population": "Simulação da população",
       "buildings": "Progressão das construções",
       "recruitment": "Recrutamento de unidades",
+      "orders": "Ordens persistentes e grupos de unidades",
       "enemyAi": "IA inimiga",
-      "warfare": "Guerras entre reinos",
+      "raids": "Ataques da IA e defesa",
       "aiKingdoms": "Reinos controlados por IA",
+      "campaigns": "Campanhas e objetivos",
+      "victory": "Condições de vitória",
       "diplomacy": "Diplomacia",
-      "technologies": "Tecnologias",
-      "victory": "Condições de vitória"
+      "technologies": "Tecnologias"
     }
   },
   "cta": {
     "heading": "Seu reino espera por você.",
-    "text": "Construa seu povoado. Forme seu exército. Defenda seu povo. Conquiste o mundo.",
+    "text": "Construa seu povoado. Forme seu exército. Atravesse o mar. Conquiste a coroa.",
     "button": "Adicionar Castlefolk à lista de desejos no Steam",
     "note": "Adicionar à lista de desejos mostra seu interesse e lembra você no dia do lançamento."
   },

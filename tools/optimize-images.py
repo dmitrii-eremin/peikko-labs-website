@@ -28,12 +28,23 @@ SCREENSHOTS = [
     "purple-castle",
     "skeleton-island",
     "spider-island",
+    "boat-landing",
+    "plateau-fight",
+    "goblin-fight",
+    "pawn-house",
 ]
 
 # These captures include the macOS menu and window title bars.
 CROP_TOP = {name: 130 for name in (
     "settlement-troops", "purple-castle", "skeleton-island", "spider-island"
 )}
+
+# Steam player-perspective captures: 2940x1912 with a 66px black strip on top. They are
+# cover-cropped to the 1470x956 shape of the original gallery shots.
+CROP_TOP.update({name: 66 for name in (
+    "boat-landing", "plateau-fight", "goblin-fight", "pawn-house"
+)})
+COVER_TO_STANDARD = {"boat-landing", "plateau-fight", "goblin-fight", "pawn-house"}
 
 # Sources are 2940x1912 macOS Retina captures, i.e. a 1470px CSS-pixel window.
 # 1470 is therefore the native logical resolution: shown at up to 1470 CSS px it is
@@ -85,6 +96,8 @@ def main():
             im = im.convert("RGB")
             if name in CROP_TOP:
                 im = im.crop((0, CROP_TOP[name], im.width, im.height))
+            if name in COVER_TO_STANDARD:
+                im = cover_crop(im, (FULL_W, 956))
             written.append(save_webp(resized(im, FULL_W), f"{name}.webp", 82))
             written.append(save_webp(resized(im, THUMB_W), f"{name}-thumb.webp", 80))
             if name in RETINA:

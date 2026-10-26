@@ -134,12 +134,12 @@
     <div class="wrap">
       <h2 class="section__title" id="featuresHeading">{{t.features.heading}}</h2>
       <div class="bands">
-{{#each features}}        <article class="band reveal{{#if flip}} band--flip{{/if}}">
-          <div class="band__media">
+{{#each features}}        <article class="band reveal{{#if flip}} band--flip{{/if}}{{#unless image}} band--text{{/unless}}">
+          {{#if image}}<div class="band__media">
             <img src="{{base}}static/img/{{image}}.webp" alt="{{imageAlt}}" width="1470" height="956"
                  srcset="{{base}}static/img/{{image}}-thumb.webp 735w, {{base}}static/img/{{image}}.webp 1470w"
                  sizes="(max-width: 860px) 92vw, 620px" loading="lazy" decoding="async">
-          </div>
+          </div>{{/if}}
           <div class="band__text">
             <h3>{{title}}</h3>
             <p>{{text}}</p>
@@ -207,8 +207,8 @@
 {{#each roadmap}}        <section class="roadmap__col card reveal" aria-labelledby="rm-{{id}}">
           <h3 id="rm-{{id}}">{{title}}</h3>
           <ul>
-{{#each items}}            <li class="rm{{#if done}} rm--done{{else}} rm--wip{{/if}}">
-              <span class="rm__mark" aria-hidden="true">{{#if done}}&#10003;{{else}}&#9680;{{/if}}</span>
+{{#each items}}            <li class="rm{{#if done}} rm--done{{else}}{{#if planned}} rm--planned{{else}} rm--wip{{/if}}{{/if}}">
+              <span class="rm__mark" aria-hidden="true">{{#if done}}&#10003;{{else}}{{#if planned}}&#9675;{{else}}&#9680;{{/if}}{{/if}}</span>
               <span class="rm__label">{{label}}</span>
               <span class="visually-hidden">&ndash; {{statusLabel}}</span>
             </li>

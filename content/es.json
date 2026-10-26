@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Construye. Gobierna. Conquista.",
-    "description": "Castlefolk es un encantador juego de estrategia de reinos en pixel art. Construye asentamientos, reúne recursos, recluta ejércitos, combate monstruos y expande tu reino.",
+    "description": "Un relajado juego de estrategia pixel art: construye un reino, dirige batallas en tiempo real, navega hacia nuevas costas y enfréntate a reinos rivales que juegan con tus mismas reglas. 22 mapas, 5 campañas y un editor de mapas integrado.",
     "ogAlt": "Un asentamiento de Castlefolk rodeado de bosque, con caballeros agrupados sobre la hierba"
   },
   "langName": "Español",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Construye. Gobierna. Conquista.",
-    "lede": "Levanta tu asentamiento, reúne recursos, forma un ejército y talla tu reino en un peligroso mundo medieval.",
+    "lede": "Levanta un asentamiento, alimenta a tu gente, forma un ejército y zarpa en busca de una corona, en un juego de estrategia en tiempo real relajado que nunca te mete prisa.",
     "wishlist": "Añadir a la lista de deseados",
     "trailer": "Ver el tráiler",
     "demo": "Demo gratuita (próximamente)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Un reino nacido de un pequeño asentamiento",
     "build": {
-      "title": "Construye tu reino",
-      "text": "Empieza con un pequeño asentamiento y conviértelo en un reino próspero."
+      "title": "Construye y crece",
+      "text": "Empieza con un pequeño asentamiento y hazlo crecer hasta convertirlo en un reino, casa a casa, torre a torre y castillo a castillo."
     },
     "gather": {
-      "title": "Reúne y prospera",
-      "text": "Tala madera, caza carne y extrae oro para mantener a tu gente alimentada y trabajando."
+      "title": "Reúne y alimenta",
+      "text": "Tala madera, pastorea ovejas y extrae oro. Todos comen y cada edificio tiene un coste de mantenimiento, así que un reino mayor necesita más suministros."
     },
     "army": {
       "title": "Forma tu ejército",
-      "text": "Recluta guerreros, arqueros, lanceros y monjes, y conviértelos en una fuerza de combate."
+      "text": "Convierte a tus peones en guerreros, arqueros, lanceros y monjes, y mantenlos alimentados, curados y fuera de problemas."
     },
     "conquer": {
-      "title": "Defiende y conquista",
-      "text": "Lucha contra criaturas peligrosas y reinos rivales por el control del mapa."
+      "title": "Navega y conquista",
+      "text": "Lucha contra monstruos y reinos rivales, en tierra y al otro lado del mar, por el control del mapa."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Levanta castillos, casas, cuarteles, torres, monasterios y mucho más. Cada edificio que alzas cambia lo que tu asentamiento puede hacer después.",
       "imageAlt": "El menú de construcción abierto sobre un asentamiento, con un castillo rival a lo lejos"
     },
-    "explore": {
-      "title": "Explorar",
-      "text": "Descubre bosques, montañas, ríos, costas y territorios salvajes. El mapa esconde tanto los recursos como aquello que los custodia.",
-      "imageAlt": "El mapa estratégico de pergamino con el territorio verde propio junto al reino púrpura rival"
-    },
     "manage": {
       "title": "Gestionar",
-      "text": "Equilibra población, recursos, construcción y fuerza militar. Cada soldado que entrenas es un aldeano que deja de recolectar.",
+      "text": "Equilibra población, vivienda, suministros y fuerza militar. Cada soldado que entrenas es un trabajador que deja de recolectar, y todos tienen que comer.",
       "imageAlt": "La interfaz del cuartel con las plazas de guarnición y una barra de entrenamiento de unidades"
+    },
+    "command": {
+      "title": "Dirige",
+      "text": "Las órdenes se mantienen: las unidades las cumplen hasta el final y puedes ver cada una en el mapa. Ordena despejar o recolectar un territorio entero y guarda grupos en atajos de teclado.",
+      "imageAlt": "Un jugador seleccionando escuadras de caballeros con un rectángulo de selección"
     },
     "fight": {
       "title": "Combatir",
       "text": "Dirige a tus fuerzas en batallas en tiempo real contra monstruos y señores rivales. La posición importa tanto como el número.",
       "imageAlt": "Caballeros luchando contra guerreros esqueleto y un minotauro sobre un puente de madera"
     },
-    "expand": {
-      "title": "Expandir",
-      "text": "Funda nuevos asentamientos y empuja tus fronteras por la costa y hacia las colinas.",
-      "imageAlt": "Un jugador seleccionando escuadras de caballeros con un rectángulo de selección"
+    "sail": {
+      "title": "Navega",
+      "text": "Sube hasta seis unidades a un barco y cruza el agua. Lucha desde la cubierta, desembarca en una costa hostil y espera que los rivales también te ataquen por mar.",
+      "imageAlt": "Un pequeño bote con dos peones rumbo a una isla dominada por guerreros esqueleto"
+    },
+    "campaigns": {
+      "title": "Campañas",
+      "text": "Cinco campañas y 17 mapas, desde tu primer humilde asentamiento hasta el desembarco de Hastings, el campo de Clontarf, la roca del Mont-Saint-Michel y los caminos de la Galia. Y cinco mapas sueltos para cuando quieras una partida rápida."
+    },
+    "create": {
+      "title": "Crea",
+      "text": "Dibuja tu propio mundo en el editor de mapas integrado, con islas, mesetas, puentes, criaturas y reinos rivales. Compártelo en un solo archivo y juega los mapas que hacen otros."
     },
     "conquer": {
       "title": "Conquistar",
-      "text": "Convierte un asentamiento diminuto en un reino capaz de gobernar el mundo entero.",
+      "text": "Convierte un diminuto asentamiento en un reino capaz de gobernar el mundo entero. Los reinos rivales recolectan, construyen y atacan con las mismas reglas que tú, así que cada victoria se gana.",
       "imageAlt": "Un gran ejército de caballeros, lanceros y arqueros formado en campo abierto"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Capturas",
     "lede": "Todas las imágenes son del juego tal y como se juega hoy.",
     "captions": {
-      "overview": "Un asentamiento costero en el día 99, con los caballeros listos para marchar",
+      "overview": "Un asentamiento costero, con los caballeros listos para marchar",
       "build-menu": "El menú de construcción, con un castillo rival en el horizonte",
       "world-map": "El mapa estratégico: tu territorio en verde, el de tu rival en púrpura",
       "army": "Un ejército de caballeros, lanceros y arqueros en formación",
@@ -96,7 +104,11 @@
       "settlement-troops": "Las tropas se reúnen entre los edificios de un asentamiento costero",
       "purple-castle": "Un castillo morado y torres de vigilancia dominan un animado asentamiento",
       "skeleton-island": "Guerreros esqueleto custodian una isla y sus depósitos de oro",
-      "spider-island": "Arañas gigantes recorren islas boscosas conectadas por un puente"
+      "spider-island": "Arañas gigantes recorren islas boscosas conectadas por un puente",
+      "boat-landing": "Un bote de peones navega hacia una isla dominada por guerreros esqueleto",
+      "plateau-fight": "Una escaramuza en mesetas escalonadas, con golpes y fallos flotando sobre la pelea",
+      "goblin-fight": "Goblins con lanza cargan contra una patrulla de caballeros mientras el registro avisa del ataque",
+      "pawn-house": "Una casa de peones con camas libres mientras los ladrones saquean las reservas"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Goblins, trolls, gnolls y cosas peores ocupan el terreno que quieres. Algunos son una molestia. Otros acaban con la expedición.",
       "imageAlt": "Guerreros esqueleto y un minotauro defendiendo una isla al otro lado de un puente"
     },
-    "bestiary": {
-      "title": "Conoce a tu enemigo",
-      "text": "Cada criatura tiene su entrada en el bestiario, con sus estadísticas y bastante más personalidad de la necesaria.",
-      "imageAlt": "Una ficha de bestiario en pergamino del minotauro con salud, ataque y velocidad"
+    "highlands": {
+      "title": "Acantilados y tierras altas",
+      "text": "Las mesetas con acantilados y escaleras estrechas convierten las crestas en fortalezas. Una cresta es tan fuerte como su única escalera.",
+      "imageAlt": "Mesetas escalonadas con paredes de acantilado, donde las unidades combaten contra espantapájaros"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "En desarrollo",
-    "lede": "Castlefolk se está haciendo a la vista de todos. Esto es lo que ya funciona y lo que sigue en obras. Sin fechas: estará listo cuando esté bien.",
+    "lede": "Castlefolk se está haciendo a la vista de todos. Todo lo marcado ya funciona en el juego; los círculos vacíos son ideas que planeamos construir. Sin fechas: estará listo cuando esté bien.",
     "done": "Hecho",
     "wip": "En curso",
+    "planned": "Planeado",
     "statusLegend": "Estado",
     "groups": {
       "world": "Mundo",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Asentamientos",
-      "roads": "Caminos",
-      "resourceNodes": "Yacimientos de recursos",
+      "seaTravel": "Barcos y navegación",
+      "plateaus": "Mesetas y escaleras",
+      "mapEditor": "Editor de mapas y mapas compartidos",
       "gathering": "Recolección de recursos",
+      "upkeep": "Mantenimiento y hambre",
       "population": "Simulación de población",
       "buildings": "Progresión de edificios",
       "recruitment": "Reclutamiento de unidades",
+      "orders": "Órdenes persistentes y grupos de unidades",
       "enemyAi": "IA enemiga",
-      "warfare": "Guerra entre reinos",
+      "raids": "Incursiones de la IA y defensa",
       "aiKingdoms": "Reinos con IA",
+      "campaigns": "Campañas y objetivos",
+      "victory": "Condiciones de victoria",
       "diplomacy": "Diplomacia",
-      "technologies": "Tecnologías",
-      "victory": "Condiciones de victoria"
+      "technologies": "Tecnologías"
     }
   },
   "cta": {
     "heading": "Tu reino te espera.",
-    "text": "Levanta tu asentamiento. Forma tu ejército. Defiende a tu gente. Conquista el mundo.",
+    "text": "Levanta tu asentamiento. Forma tu ejército. Cruza el mar. Toma la corona.",
     "button": "Añadir Castlefolk a deseados en Steam",
     "note": "Añadirlo a deseados nos dice que la gente lo quiere, y te avisa el día del lanzamiento."
   },

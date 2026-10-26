@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Buduj. Rządź. Podbijaj.",
-    "description": "Castlefolk to urokliwa gra strategiczna w stylu pixel art. Buduj osady, zbieraj surowce, twórz armie, walcz z potworami i rozszerzaj swoje królestwo.",
+    "description": "Spokojna strategia w stylu pixel art: zbuduj królestwo, dowodź bitwami w czasie rzeczywistym, wypłyń ku nowym brzegom i stań naprzeciw rywalizujących królestw, które grają według tych samych zasad co ty. 22 mapy, 5 kampanii i wbudowany edytor map.",
     "ogAlt": "Osada w Castlefolk otoczona lasem, z rycerzami zgromadzonymi na trawie"
   },
   "langName": "Polski",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Buduj. Rządź. Podbijaj.",
-    "lede": "Zbuduj osadę, zbieraj surowce, stwórz armię i wywalcz własne królestwo w niebezpiecznym średniowiecznym świecie.",
+    "lede": "Zbuduj osadę, nakarm swój lud, stwórz armię i wypłyń po koronę w spokojnej strategii czasu rzeczywistego, która nigdy cię nie pogania.",
     "wishlist": "Dodaj do listy życzeń na Steam",
     "trailer": "Obejrzyj zwiastun",
     "demo": "Darmowe demo (wkrótce)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Królestwo z jednej małej osady",
     "build": {
-      "title": "Zbuduj swoje królestwo",
-      "text": "Zacznij od małej osady i zmień ją w kwitnące królestwo."
+      "title": "Buduj i rośnij",
+      "text": "Zacznij od małej osady i rozwiń ją w królestwo, dom po domu, wieża po wieży, zamek po zamku."
     },
     "gather": {
-      "title": "Zbieraj i rozwijaj się",
-      "text": "Ścinaj drewno, poluj dla mięsa i wydobywaj złoto, by zapewnić swoim ludziom żywność i pracę."
+      "title": "Zbieraj i karm",
+      "text": "Ścinaj drewno, wypasaj owce i wydobywaj złoto. Wszyscy jedzą, a każdy budynek ma koszty utrzymania, więc większe królestwo potrzebuje większych zapasów."
     },
     "army": {
-      "title": "Stwórz swoją armię",
-      "text": "Rekrutuj wojowników, łuczników, włóczników i mnichów, a następnie wyszkol ich na siłę bojową."
+      "title": "Stwórz armię",
+      "text": "Wyszkol robotników na wojowników, łuczników, włóczników i mnichów, i dbaj, by byli najedzeni, wyleczeni i z dala od kłopotów."
     },
     "conquer": {
-      "title": "Broń i podbijaj",
-      "text": "Walcz z niebezpiecznymi stworzeniami i rywalizującymi królestwami o kontrolę nad mapą."
+      "title": "Żegluj i podbijaj",
+      "text": "Walcz z potworami i rywalizującymi królestwami, na lądzie i za morzem, o kontrolę nad mapą."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Wznoś zamki, domy, koszary, wieże, klasztory i wiele więcej. Każdy nowy budynek otwiera przed twoją osadą kolejne możliwości.",
       "imageAlt": "Menu budowy otwarte nad osadą, z zamkiem rywala widocznym w oddali"
     },
-    "explore": {
-      "title": "Odkrywaj",
-      "text": "Odkrywaj lasy, góry, rzeki, wybrzeża i niebezpieczne dzikie tereny. Mapa skrywa surowce oraz stworzenia, które ich strzegą.",
-      "imageAlt": "Strategiczna mapa na pergaminie pokazująca zielone terytorium sojusznicze obok fioletowego królestwa rywala"
-    },
     "manage": {
       "title": "Zarządzaj",
-      "text": "Dbaj o równowagę między ludnością, surowcami, budową i siłą militarną. Każdy wyszkolony żołnierz to mieszkaniec, który przestaje zbierać surowce.",
+      "text": "Zrównoważ ludność, mieszkania, zaopatrzenie i siłę militarną. Każdy wyszkolony żołnierz to robotnik, który przestaje zbierać surowce, a wszyscy muszą jeść.",
       "imageAlt": "Interfejs koszar z miejscami garnizonu i paskiem postępu szkolenia jednostek"
+    },
+    "command": {
+      "title": "Dowodź",
+      "text": "Rozkazy się utrzymują: jednostki wykonują je do końca, a każdy rozkaz widać na mapie. Zleć oczyszczenie lub zebranie surowców z całego terytorium i zapisz grupy pod klawiszami skrótu.",
+      "imageAlt": "Gracz zaznacza oddziały rycerzy, przeciągając prostokąt zaznaczenia"
     },
     "fight": {
       "title": "Walcz",
       "text": "Dowódź swoimi siłami w bitwach w czasie rzeczywistym przeciw potworom i rywalizującym władcom. Ustawienie liczy się tak samo jak liczebność.",
       "imageAlt": "Rycerze walczą ze szkieletowymi wojownikami i minotaurem po obu stronach drewnianego mostu"
     },
-    "expand": {
-      "title": "Rozszerzaj granice",
-      "text": "Zakładaj nowe osady i przesuwaj granice wzdłuż wybrzeża oraz w głąb wzgórz.",
-      "imageAlt": "Gracz zaznacza oddziały rycerzy, przeciągając prostokąt zaznaczenia"
+    "sail": {
+      "title": "Żegluj",
+      "text": "Załaduj na łódź do sześciu jednostek i przepłyń wodę. Walcz z pokładu, wysiądź na wrogim brzegu i bądź gotów, że rywale zaatakują cię także od strony morza.",
+      "imageAlt": "Mała łódź z dwoma robotnikami płynie ku wyspie, którą trzymają szkieletowi wojownicy"
+    },
+    "campaigns": {
+      "title": "Kampanie",
+      "text": "Pięć kampanii i 17 map: od pierwszej skromnej osady po lądowanie pod Hastings, pole bitwy pod Clontarf, skałę Mont-Saint-Michel i drogi Galii. Do tego pięć osobnych map na szybką partię."
+    },
+    "create": {
+      "title": "Twórz",
+      "text": "Narysuj własny świat we wbudowanym edytorze map: wyspy, płaskowyże, mosty, stworzenia i rywalizujące królestwa. Udostępnij go jako jeden plik i graj na mapach stworzonych przez innych."
     },
     "conquer": {
       "title": "Podbijaj",
-      "text": "Zmień maleńką osadę w królestwo zdolne władać całym światem.",
+      "text": "Zmień maleńką osadę w królestwo zdolne rządzić całym światem. Rywalizujące królestwa zbierają, budują i napadają według tych samych zasad co ty, więc każde zwycięstwo jest zasłużone.",
       "imageAlt": "Wielka armia rycerzy, włóczników i łuczników ustawiona w szyku na trawie"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Zrzuty ekranu",
     "lede": "Wszystkie poniższe obrazy pochodzą z obecnej wersji gry.",
     "captions": {
-      "overview": "Nadmorska osada w 99. dniu, z rycerzami gotowymi do wymarszu",
+      "overview": "Nadmorska osada z rycerzami gotowymi do wymarszu",
       "build-menu": "Menu budowy z zamkiem rywala na horyzoncie",
       "world-map": "Mapa strategiczna: twoje terytorium na zielono, terytorium rywala na fioletowo",
       "army": "Armia rycerzy, włóczników i łuczników w szyku",
@@ -96,7 +104,11 @@
       "settlement-troops": "Wojska gromadzą się między budynkami nadmorskiej osady",
       "purple-castle": "Fioletowy zamek i wieże strażnicze górują nad tętniącą życiem osadą",
       "skeleton-island": "Szkieletowi wojownicy strzegą wyspy i jej złóż złota",
-      "spider-island": "Olbrzymie pająki przemierzają zalesione wyspy połączone mostem"
+      "spider-island": "Olbrzymie pająki przemierzają zalesione wyspy połączone mostem",
+      "boat-landing": "Łódź z robotnikami płynie ku wyspie, którą trzymają szkieletowi wojownicy",
+      "plateau-fight": "Potyczka na tarasowych płaskowyżach, trafienia i pudła unoszą się nad walką",
+      "goblin-fight": "Gobliny z włóczniami szarżują na patrol rycerzy, a dziennik zdarzeń melduje o ataku",
+      "pawn-house": "Dom robotników z wolnymi łóżkami, podczas gdy złodzieje plądrują zapasy"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Gobliny, trolle, gnolle i gorsze stworzenia zajmują ziemie, których pragniesz. Niektóre są utrapieniem. Inne kładą kres wyprawie.",
       "imageAlt": "Szkieletowi wojownicy i minotaur bronią wyspy po drugiej stronie mostu"
     },
-    "bestiary": {
-      "title": "Poznaj swojego wroga",
-      "text": "Każde stworzenie ma wpis w bestiariuszu ze statystykami i odrobinę zbyt wyrazistym charakterem.",
-      "imageAlt": "Pergaminowa karta bestiariusza przedstawiająca zdrowie, atak i szybkość minotaura"
+    "highlands": {
+      "title": "Klify i wzgórza",
+      "text": "Płaskowyże z klifami i wąskimi schodami zmieniają grzbiety w twierdze. Grzbiet jest tak silny, jak jego jedyne schody.",
+      "imageAlt": "Tarasowe płaskowyże z klifowymi ścianami, na których jednostki walczą ze strachami na wróble"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "W trakcie tworzenia",
-    "lede": "Castlefolk powstaje na oczach graczy. Oto co już działa, a nad czym nadal pracujemy. Bez dat — gra będzie gotowa, gdy będzie dobra.",
+    "lede": "Castlefolk powstaje na oczach graczy. Wszystko, co zaznaczone, już działa w grze; puste kółka to pomysły, które planujemy zrealizować. Bez dat — gra będzie gotowa, gdy będzie dobra.",
     "done": "Gotowe",
     "wip": "W toku",
+    "planned": "Planowane",
     "statusLegend": "Status",
     "groups": {
       "world": "Świat",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Osady",
-      "roads": "Drogi",
-      "resourceNodes": "Źródła surowców",
+      "seaTravel": "Łodzie i żegluga",
+      "plateaus": "Płaskowyże i schody",
+      "mapEditor": "Edytor map i udostępnianie map",
       "gathering": "Zbieranie surowców",
+      "upkeep": "Utrzymanie i głód",
       "population": "Symulacja ludności",
       "buildings": "Rozwój budynków",
       "recruitment": "Rekrutacja jednostek",
+      "orders": "Trwałe rozkazy i grupy jednostek",
       "enemyAi": "SI przeciwnika",
-      "warfare": "Wojny między królestwami",
+      "raids": "Najazdy SI i obrona",
       "aiKingdoms": "Królestwa sterowane przez SI",
+      "campaigns": "Kampanie i cele",
+      "victory": "Warunki zwycięstwa",
       "diplomacy": "Dyplomacja",
-      "technologies": "Technologie",
-      "victory": "Warunki zwycięstwa"
+      "technologies": "Technologie"
     }
   },
   "cta": {
     "heading": "Twoje królestwo czeka.",
-    "text": "Zbuduj osadę. Stwórz armię. Broń swoich ludzi. Podbij świat.",
+    "text": "Zbuduj osadę. Stwórz armię. Przepłyń morze. Sięgnij po koronę.",
     "button": "Dodaj Castlefolk do listy życzeń na Steam",
     "note": "Dodanie do listy życzeń pokazuje nam twoje zainteresowanie i przypomni ci o premierze."
   },

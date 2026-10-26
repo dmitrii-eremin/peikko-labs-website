@@ -183,6 +183,7 @@ function buildContext(lang) {
       label: t.roadmap.items[it.id],
       statusLabel: t.roadmap[it.status],
       done: it.status === "done",
+      planned: it.status === "planned",
     })),
   }));
 

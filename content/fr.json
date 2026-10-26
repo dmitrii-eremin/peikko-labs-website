@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Bâtissez. Régnez. Conquérez.",
-    "description": "Castlefolk est un charmant jeu de stratégie en pixel art. Bâtissez des colonies, récoltez des ressources, levez des armées, affrontez des monstres et agrandissez votre royaume.",
+    "description": "Un jeu de stratégie pixel art tout en détente : bâtissez un royaume, menez des batailles en temps réel, cinglez vers de nouveaux rivages et affrontez des royaumes rivaux qui jouent avec les mêmes règles que vous. 22 cartes, 5 campagnes et un éditeur de cartes intégré.",
     "ogAlt": "Une colonie de Castlefolk entourée de forêt, avec des chevaliers rassemblés dans l’herbe"
   },
   "langName": "Français",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Bâtissez. Régnez. Conquérez.",
-    "lede": "Bâtissez votre colonie, récoltez des ressources, levez une armée et taillez-vous un royaume dans un monde médiéval dangereux.",
+    "lede": "Bâtissez une colonie, nourrissez votre peuple, levez une armée et prenez la mer pour conquérir une couronne, dans un jeu de stratégie en temps réel tranquille qui ne vous presse jamais.",
     "wishlist": "Ajouter à la liste de souhaits Steam",
     "trailer": "Voir la bande-annonce",
     "demo": "Démo gratuite (bientôt disponible)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Un royaume né d’une petite colonie",
     "build": {
-      "title": "Bâtissez votre royaume",
-      "text": "Partez d’une petite colonie et faites-en un royaume prospère."
+      "title": "Bâtissez et grandissez",
+      "text": "Partez d’une petite colonie et faites-en un royaume, maison après maison, tour après tour, château après château."
     },
     "gather": {
-      "title": "Récoltez et prospérez",
-      "text": "Coupez du bois, chassez pour la viande et extrayez de l’or pour nourrir votre peuple et le maintenir au travail."
+      "title": "Récoltez et nourrissez",
+      "text": "Coupez du bois, gardez des moutons et extrayez de l’or. Tout le monde mange et chaque bâtiment a un coût d’entretien : un grand royaume exige de grandes réserves."
     },
     "army": {
       "title": "Levez votre armée",
-      "text": "Recrutez des guerriers, des archers, des lanciers et des moines, puis entraînez-les pour former une force de combat."
+      "text": "Formez vos ouvriers en guerriers, archers, lanciers et moines, et veillez à ce qu’ils soient nourris, soignés et loin des ennuis."
     },
     "conquer": {
-      "title": "Défendez et conquérez",
-      "text": "Affrontez des créatures dangereuses et des royaumes rivaux pour prendre le contrôle de la carte."
+      "title": "Naviguez et conquérez",
+      "text": "Affrontez monstres et royaumes rivaux, sur terre comme au-delà des mers, pour prendre le contrôle de la carte."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Construisez des châteaux, des maisons, des casernes, des tours, des monastères et bien plus. Chaque bâtiment ouvre de nouvelles possibilités à votre colonie.",
       "imageAlt": "Le menu de construction ouvert au-dessus d’une colonie, avec un château rival au loin"
     },
-    "explore": {
-      "title": "Explorez",
-      "text": "Découvrez des forêts, des montagnes, des rivières, des côtes et des terres sauvages dangereuses. La carte cache des ressources… et leurs gardiens.",
-      "imageAlt": "La carte stratégique sur parchemin montrant le territoire allié en vert à côté d’un royaume rival violet"
-    },
     "manage": {
       "title": "Gérez",
-      "text": "Équilibrez population, ressources, construction et puissance militaire. Chaque soldat entraîné est un villageois qui cesse de récolter.",
+      "text": "Équilibrez population, logement, vivres et puissance militaire. Chaque soldat que vous formez est un travailleur qui cesse de récolter, et tout le monde doit manger.",
       "imageAlt": "L’interface de la caserne avec les emplacements de garnison et une barre de progression de l’entraînement"
+    },
+    "command": {
+      "title": "Commandez",
+      "text": "Les ordres durent : les unités les mènent à terme et vous voyez chacun d’eux sur la carte. Ordonnez de nettoyer ou de récolter tout un territoire, et enregistrez vos groupes sur des raccourcis clavier.",
+      "imageAlt": "Un joueur sélectionne des escouades de chevaliers en traçant un rectangle de sélection"
     },
     "fight": {
       "title": "Combattez",
       "text": "Commandez vos troupes dans des batailles en temps réel contre des monstres et des seigneurs rivaux. Le placement compte autant que le nombre.",
       "imageAlt": "Des chevaliers affrontent des guerriers squelettes et un minotaure de part et d’autre d’un pont de bois"
     },
-    "expand": {
-      "title": "Étendez-vous",
-      "text": "Fondez de nouvelles colonies et repoussez vos frontières le long des côtes et jusque dans les collines.",
-      "imageAlt": "Un joueur sélectionne des escouades de chevaliers en traçant un rectangle de sélection"
+    "sail": {
+      "title": "Naviguez",
+      "text": "Embarquez jusqu’à six unités sur un bateau et traversez l’eau. Combattez depuis le pont, débarquez sur une côte hostile et attendez-vous à ce que vos rivaux arrivent aussi par la mer.",
+      "imageAlt": "Une petite barque avec deux ouvriers en route vers une île tenue par des guerriers squelettes"
+    },
+    "campaigns": {
+      "title": "Campagnes",
+      "text": "Cinq campagnes et 17 cartes, de votre première modeste colonie au débarquement d’Hastings, au champ de Clontarf, au rocher du Mont-Saint-Michel et aux routes de la Gaule. Plus cinq cartes indépendantes pour une partie rapide."
+    },
+    "create": {
+      "title": "Créez",
+      "text": "Dessinez votre propre monde dans l’éditeur de cartes intégré, avec îles, plateaux, ponts, créatures et royaumes rivaux. Partagez-le en un seul fichier et jouez aux cartes créées par d’autres."
     },
     "conquer": {
       "title": "Conquérez",
-      "text": "Transformez une minuscule colonie en un royaume capable de dominer le monde entier.",
+      "text": "Faites d’une minuscule colonie un royaume capable de dominer le monde entier. Les royaumes rivaux récoltent, bâtissent et lancent des raids selon les mêmes règles que vous : chaque victoire est méritée.",
       "imageAlt": "Une grande armée de chevaliers, de lanciers et d’archers en formation dans une prairie"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Captures d’écran",
     "lede": "Toutes les images ci-dessous montrent le jeu dans son état actuel.",
     "captions": {
-      "overview": "Une colonie côtière au jour 99, avec des chevaliers prêts à partir",
+      "overview": "Une colonie côtière, avec des chevaliers prêts à partir",
       "build-menu": "Le menu de construction, avec un château rival à l’horizon",
       "world-map": "La carte stratégique : votre territoire en vert, celui de votre rival en violet",
       "army": "Une armée de chevaliers, de lanciers et d’archers en formation",
@@ -96,7 +104,11 @@
       "settlement-troops": "Des troupes se rassemblent parmi les bâtiments d’une colonie côtière",
       "purple-castle": "Un château violet et des tours de guet dominent une colonie animée",
       "skeleton-island": "Des guerriers squelettes gardent une île et ses gisements d’or",
-      "spider-island": "Des araignées géantes parcourent des îles boisées reliées par un pont"
+      "spider-island": "Des araignées géantes parcourent des îles boisées reliées par un pont",
+      "boat-landing": "Un bateau d’ouvriers cingle vers une île tenue par des guerriers squelettes",
+      "plateau-fight": "Une escarmouche sur des plateaux en terrasses, coups et ratés flottant au-dessus du combat",
+      "goblin-fight": "Des gobelins lanciers chargent une patrouille de chevaliers pendant que le journal signale l’attaque",
+      "pawn-house": "Une maison d’ouvriers aux lits libres, pendant que des voleurs pillent les réserves"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Gobelins, trolls, gnolls et pire encore occupent les terres que vous convoitez. Certains sont une nuisance. D’autres mettent fin à une expédition.",
       "imageAlt": "Des guerriers squelettes et un minotaure défendent une île de l’autre côté d’un pont"
     },
-    "bestiary": {
-      "title": "Connaissez votre ennemi",
-      "text": "Chaque créature possède une entrée dans le bestiaire, avec ses statistiques et un peu trop de personnalité.",
-      "imageAlt": "Une fiche de bestiaire sur parchemin montrant la santé, l’attaque et la vitesse du minotaure"
+    "highlands": {
+      "title": "Falaises et hauteurs",
+      "text": "Des plateaux à falaises et à escaliers étroits transforment les crêtes en forteresses. Une crête n’est aussi solide que son unique escalier.",
+      "imageAlt": "Des plateaux en terrasses aux parois de falaise, où des unités combattent des épouvantails"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "En développement",
-    "lede": "Castlefolk se construit au grand jour. Voici ce qui fonctionne déjà et ce qui est encore en chantier. Pas de dates : le jeu sera prêt quand il sera à la hauteur.",
+    "lede": "Castlefolk se construit au grand jour. Tout ce qui est coché fonctionne déjà dans le jeu ; les cercles vides sont des idées que nous prévoyons de réaliser. Pas de dates : le jeu sera prêt quand il sera à la hauteur.",
     "done": "Terminé",
     "wip": "En cours",
+    "planned": "Prévu",
     "statusLegend": "État",
     "groups": {
       "world": "Monde",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Colonies",
-      "roads": "Routes",
-      "resourceNodes": "Sites de ressources",
+      "seaTravel": "Bateaux et navigation",
+      "plateaus": "Plateaux et escaliers",
+      "mapEditor": "Éditeur de cartes et partage de cartes",
       "gathering": "Récolte de ressources",
+      "upkeep": "Entretien et faim",
       "population": "Simulation de la population",
       "buildings": "Évolution des bâtiments",
       "recruitment": "Recrutement des unités",
+      "orders": "Ordres persistants et groupes d’unités",
       "enemyAi": "IA ennemie",
-      "warfare": "Guerres entre royaumes",
+      "raids": "Raids de l’IA et défense",
       "aiKingdoms": "Royaumes contrôlés par l’IA",
+      "campaigns": "Campagnes et objectifs",
+      "victory": "Conditions de victoire",
       "diplomacy": "Diplomatie",
-      "technologies": "Technologies",
-      "victory": "Conditions de victoire"
+      "technologies": "Technologies"
     }
   },
   "cta": {
     "heading": "Votre royaume vous attend.",
-    "text": "Bâtissez votre colonie. Levez votre armée. Défendez votre peuple. Conquérez le monde.",
+    "text": "Bâtissez votre colonie. Levez votre armée. Traversez la mer. Prenez la couronne.",
     "button": "Ajouter Castlefolk à votre liste de souhaits Steam",
     "note": "L’ajout à votre liste de souhaits nous montre votre intérêt et vous rappelle la sortie du jeu."
   },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Rakenna. Hallitse. Valloita.",
-    "description": "Castlefolk on lämminhenkinen pikselitaiteinen valtakuntastrategia. Rakenna asutuksia, kerää resursseja, kouluta armeijoita, taistele hirviöitä vastaan ja laajenna valtakuntaasi.",
+    "description": "Rento pikselitaiteella tehty strategiapeli: rakenna valtakunta, komenna reaaliaikaisia taisteluita, purjehdi uusille rannoille ja kohtaa kilpailevia valtakuntia, jotka pelaavat samoilla säännöillä kuin sinä. 22 karttaa, 5 kampanjaa ja sisäänrakennettu karttaeditori.",
     "ogAlt": "Castlefolk-asutus metsän ympäröimänä, ritarit koottuina nurmelle"
   },
   "langName": "Suomi",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Rakenna. Hallitse. Valloita.",
-    "lede": "Rakenna asutuksesi, kerää resursseja, kouluta armeija ja veistä oma valtakuntasi vaarallisesta keskiaikaisesta maailmasta.",
+    "lede": "Rakenna asutus, ruoki väkesi, kokoa armeija ja lähde purjehtimaan kohti kruunua rennossa reaaliaikastrategiassa, joka ei hoputa sinua.",
     "wishlist": "Lisää Steam-toivelistalle",
     "trailer": "Katso traileri",
     "demo": "Ilmainen demo (tulossa pian)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Valtakunta yhdestä pienestä asutuksesta",
     "build": {
-      "title": "Rakenna valtakuntasi",
-      "text": "Aloita pienestä asutuksesta ja kasvata siitä kukoistava valtakunta."
+      "title": "Rakenna ja kasva",
+      "text": "Aloita pienestä asutuksesta ja kasvata se valtakunnaksi, yksi talo, torni ja linna kerrallaan."
     },
     "gather": {
-      "title": "Kerää ja kasva",
-      "text": "Kaada puuta, metsästä lihaa ja louhi kultaa, jotta väkesi pysyy ruokittuna ja työn touhussa."
+      "title": "Kerää ja ruoki",
+      "text": "Kaada puuta, paimenna lampaita ja louhi kultaa. Kaikki syövät ja jokaisella rakennuksella on ylläpitokustannus, joten suurempi valtakunta tarvitsee suuremmat varastot."
     },
     "army": {
       "title": "Kokoa armeijasi",
-      "text": "Värvää sotureita, jousimiehiä, keihäsmiehiä ja munkkeja, ja kouluta heistä kunnon taistelujoukko."
+      "text": "Kouluta talonpojista sotureita, jousimiehiä, keihäsmiehiä ja munkkeja, ja pidä heidät ruokittuina, parannettuina ja pois pulasta."
     },
     "conquer": {
-      "title": "Puolusta ja valloita",
-      "text": "Taistele vaarallisia otuksia ja kilpailevia valtakuntia vastaan kartan herruudesta."
+      "title": "Purjehdi ja valloita",
+      "text": "Taistele hirviöitä ja kilpailevia valtakuntia vastaan maalla ja meren takana kartan herruudesta."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Pystytä linnoja, taloja, kasarmeja, torneja, luostareita ja paljon muuta. Jokainen uusi rakennus muuttaa sen, mihin asutuksesi seuraavaksi pystyy.",
       "imageAlt": "Rakennusvalikko auki asutuksen yllä, kaukana näkyy vihollisen linna"
     },
-    "explore": {
-      "title": "Tutki",
-      "text": "Löydä metsiä, vuoria, jokia, rannikoita ja vaarallista erämaata. Kartta kätkee sekä resurssit että ne, jotka niitä vartioivat.",
-      "imageAlt": "Pergamenttikartta, jossa pelaajan vihreä alue kilpailijan violetin valtakunnan vieressä"
-    },
     "manage": {
       "title": "Hallitse",
-      "text": "Tasapainota väestö, resurssit, rakentaminen ja sotavoima. Jokainen koulutettu sotilas on kyläläinen, joka lakkaa keräämästä.",
+      "text": "Tasapainota väestö, asuminen, huolto ja sotilaallinen voima. Jokainen kouluttamasi sotilas on työntekijä, joka lakkaa keräämästä, ja kaikkien on syötävä.",
       "imageAlt": "Kasarmin käyttöliittymä varuskuntapaikkoineen ja yksikön koulutuspalkkeineen"
+    },
+    "command": {
+      "title": "Komenna",
+      "text": "Käskyt pysyvät voimassa: yksiköt vievät ne loppuun, ja jokaisen käskyn näet kartalla. Käske kokonainen alue raivattavaksi tai kerättäväksi ja tallenna ryhmät pikanäppäimiin.",
+      "imageAlt": "Pelaaja valitsee ritariryhmiä valintasuorakulmiolla"
     },
     "fight": {
       "title": "Taistele",
       "text": "Komenna joukkojasi reaaliaikaisissa taisteluissa hirviöitä ja kilpailevia ruhtinaita vastaan. Asemat ratkaisevat yhtä paljon kuin lukumäärä.",
       "imageAlt": "Ritarit taistelevat luurankosotureita ja minotaurosta vastaan puusillalla"
     },
-    "expand": {
-      "title": "Laajene",
-      "text": "Perusta uusia asutuksia ja työnnä rajojasi ulospäin rannikolle ja kukkuloille.",
-      "imageAlt": "Pelaaja valitsee ritariryhmiä valintasuorakulmiolla"
+    "sail": {
+      "title": "Purjehdi",
+      "text": "Lastaa veneeseen jopa kuusi yksikköä ja ylitä vesi. Taistele kannelta, nouse maihin vihamielisellä rannalla ja varaudu siihen, että kilpailijat tulevat kimppuusi myös meritse.",
+      "imageAlt": "Pieni vene, jossa on kaksi talonpoikaa, matkalla luurankosotureiden hallitsemalle saarelle"
+    },
+    "campaigns": {
+      "title": "Kampanjat",
+      "text": "Viisi kampanjaa ja 17 karttaa: ensimmäisestä vaatimattomasta asutuksesta Hastingsin maihinnousuun, Clontarfin kentälle, Mont-Saint-Michelin kalliolle ja Gallian teille. Nopeaan peliin on lisäksi viisi erillistä karttaa."
+    },
+    "create": {
+      "title": "Luo",
+      "text": "Piirrä oma maailmasi sisäänrakennetulla karttaeditorilla: saaria, ylänköjä, siltoja, otuksia ja kilpailevia valtakuntia. Jaa kartta yhtenä tiedostona ja pelaa muiden tekemiä karttoja."
     },
     "conquer": {
       "title": "Valloita",
-      "text": "Kasvata pikkuruisesta asutuksesta valtakunta, joka kykenee hallitsemaan koko maailmaa.",
+      "text": "Kasvata pienestä asutuksesta valtakunta, joka kykenee hallitsemaan koko maailmaa. Kilpailevat valtakunnat keräävät, rakentavat ja ryöstelevät samoilla säännöillä kuin sinä, joten jokainen voitto on ansaittu.",
       "imageAlt": "Suuri ritarien, keihäsmiesten ja jousimiesten armeija muodostelmassa avoimella nurmella"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Kuvakaappaukset",
     "lede": "Kaikki alla olevat kuvat ovat pelistä sellaisena kuin se on nyt.",
     "captions": {
-      "overview": "Rannikkoasutus päivänä 99, ritarit valmiina marssimaan",
+      "overview": "Rannikkoasutus, ritarit valmiina marssimaan",
       "build-menu": "Rakennusvalikko, horisontissa vihollisen linna",
       "world-map": "Strategiakartta: sinun alueesi vihreänä, kilpailijan violettina",
       "army": "Ritarien, keihäsmiesten ja jousimiesten armeija muodostelmassa",
@@ -96,7 +104,11 @@
       "settlement-troops": "Joukot kokoontuvat rannikkoasutuksen rakennusten keskelle",
       "purple-castle": "Violetti linna ja vartiotornit kohoavat vilkkaan asutuksen yllä",
       "skeleton-island": "Luurankosoturit vartioivat saarta ja sen kultaesiintymiä",
-      "spider-island": "Jättiläishämähäkit vaeltavat sillan yhdistämillä metsäisillä saarilla"
+      "spider-island": "Jättiläishämähäkit vaeltavat sillan yhdistämillä metsäisillä saarilla",
+      "boat-landing": "Talonpoikia kuljettava vene purjehtii luurankosotureiden hallitsemalle saarelle",
+      "plateau-fight": "Kahakka porrasmaisilla ylängöillä, iskut ja ohilyönnit leijuvat taistelun yllä",
+      "goblin-fight": "Keihäsgoblinit rynnistävät ritaripartion kimppuun, ja pelilogi ilmoittaa hyökkäyksestä",
+      "pawn-house": "Talonpoikien talo, jossa on vapaita sänkyjä, kun varkaat ryöstävät varastoja"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Hiidet, peikot, gnollit ja pahemmatkin pitävät hallussaan maata, jonka haluat. Osa niistä on riesa. Osa päättää retkikunnan.",
       "imageAlt": "Luurankosotureita ja minotauros puolustamassa saarta sillan takana"
     },
-    "bestiary": {
-      "title": "Tunne vihollisesi",
-      "text": "Jokaisella otuksella on eläinkirjan merkintä, jossa on tilastot ja hitusen liikaa luonnetta.",
-      "imageAlt": "Pergamenttinen eläinkirjakortti minotauroksesta: terveys, hyökkäys ja nopeus"
+    "highlands": {
+      "title": "Kalliot ja ylänköt",
+      "text": "Jyrkänteiset ylängöt ja kapeat portaat tekevät harjanteista linnoituksia. Harjanne on vain niin vahva kuin sen ainoa portaikko.",
+      "imageAlt": "Porrasmaisia ylänköjä kallioseinämineen, joilla yksiköt taistelevat linnunpelättejä vastaan"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "Kehityksessä",
-    "lede": "Castlefolkia tehdään avoimesti. Tässä on se, mikä toimii jo, ja se, mikä on vielä työn alla. Ei päivämääriä — valmista tulee kun tulee hyvää.",
+    "lede": "Castlefolkia tehdään avoimesti. Kaikki valmiiksi merkityt toimivat pelissä jo nyt; tyhjät ympyrät ovat ideoita, jotka aiomme toteuttaa. Ei päivämääriä — valmista tulee kun tulee hyvää.",
     "done": "Valmis",
     "wip": "Työn alla",
+    "planned": "Suunnitteilla",
     "statusLegend": "Tila",
     "groups": {
       "world": "Maailma",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Asutukset",
-      "roads": "Tiet",
-      "resourceNodes": "Resurssiesiintymät",
+      "seaTravel": "Veneet ja merimatkailu",
+      "plateaus": "Ylängöt ja portaat",
+      "mapEditor": "Karttaeditori ja karttojen jakaminen",
       "gathering": "Resurssien keruu",
+      "upkeep": "Ylläpito ja nälkä",
       "population": "Väestösimulaatio",
       "buildings": "Rakennusten kehittyminen",
       "recruitment": "Yksiköiden värväys",
+      "orders": "Pysyvät käskyt ja yksikköryhmät",
       "enemyAi": "Vihollisen tekoäly",
-      "warfare": "Valtakuntien sodankäynti",
+      "raids": "Tekoälyn ryöstöretket ja puolustus",
       "aiKingdoms": "Tekoälyvaltakunnat",
+      "campaigns": "Kampanjat ja tehtävät",
+      "victory": "Voittoehdot",
       "diplomacy": "Diplomatia",
-      "technologies": "Teknologiat",
-      "victory": "Voittoehdot"
+      "technologies": "Teknologiat"
     }
   },
   "cta": {
     "heading": "Valtakuntasi odottaa.",
-    "text": "Rakenna asutuksesi. Kokoa armeijasi. Puolusta väkeäsi. Valloita maailma.",
+    "text": "Rakenna asutuksesi. Kokoa armeijasi. Purjehdi meren yli. Ota kruunu.",
     "button": "Lisää Castlefolk Steam-toivelistalle",
     "note": "Toivelistalle lisääminen kertoo meille, että peliä halutaan, ja muistuttaa sinua julkaisupäivänä."
   },

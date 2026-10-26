@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Bauen. Herrschen. Erobern.",
-    "description": "Castlefolk ist ein charmantes Königreich-Strategiespiel im Pixel-Art-Stil. Baue Siedlungen, sammle Rohstoffe, stelle Armeen auf, bekämpfe Monster und erweitere dein Reich.",
+    "description": "Ein entspanntes Pixel-Art-Strategiespiel: Baue ein Königreich, führe Echtzeitschlachten, segle zu neuen Küsten und stelle dich rivalisierenden Königreichen, die nach denselben Regeln spielen wie du. 22 Karten, 5 Kampagnen und ein integrierter Karteneditor.",
     "ogAlt": "Eine Castlefolk-Siedlung, von Wald umgeben, mit Rittern auf der Wiese"
   },
   "langName": "Deutsch",
@@ -22,7 +22,7 @@
   "hero": {
     "wordmarkAlt": "Castlefolk",
     "tagline": "Bauen. Herrschen. Erobern.",
-    "lede": "Baue deine Siedlung, sammle Rohstoffe, stelle ein Heer auf und schlage dir dein Königreich aus einer gefährlichen mittelalterlichen Welt heraus.",
+    "lede": "Baue eine Siedlung, versorge dein Volk, stelle ein Heer auf und segle los, um dir eine Krone zu holen – in einem entspannten Echtzeitstrategiespiel, das dich nie hetzt.",
     "wishlist": "Auf Steam merken",
     "trailer": "Trailer ansehen",
     "demo": "Kostenlose Demo (demnächst)",
@@ -32,20 +32,20 @@
   "pitch": {
     "heading": "Ein Königreich aus einer kleinen Siedlung",
     "build": {
-      "title": "Baue dein Königreich",
-      "text": "Beginne mit einer kleinen Siedlung und mache ein blühendes Königreich daraus."
+      "title": "Bauen und wachsen",
+      "text": "Beginne mit einer kleinen Siedlung und lass sie zum Königreich wachsen, Haus für Haus, Turm für Turm, Burg für Burg."
     },
     "gather": {
-      "title": "Sammeln und wachsen",
-      "text": "Schlage Holz, jage Fleisch und schürfe Gold, damit dein Volk satt und beschäftigt bleibt."
+      "title": "Sammeln und versorgen",
+      "text": "Schlage Holz, hüte Schafe und schürfe Gold. Alle wollen essen und jedes Gebäude kostet Unterhalt, also braucht ein größeres Reich größere Vorräte."
     },
     "army": {
       "title": "Stelle dein Heer auf",
-      "text": "Rekrutiere Krieger, Bogenschützen, Lanzenträger und Mönche und drille sie zu einer echten Streitmacht."
+      "text": "Bilde Bauern zu Kriegern, Bogenschützen, Lanzenträgern und Mönchen aus und halte sie satt, geheilt und aus dem Ärger heraus."
     },
     "conquer": {
-      "title": "Verteidigen und erobern",
-      "text": "Kämpfe gegen gefährliche Kreaturen und rivalisierende Königreiche um die Herrschaft über die Karte."
+      "title": "Segeln und erobern",
+      "text": "Kämpfe gegen Monster und rivalisierende Königreiche, zu Lande und jenseits des Meeres, um die Herrschaft über die Karte."
     }
   },
   "features": {
@@ -55,29 +55,37 @@
       "text": "Errichte Burgen, Häuser, Kasernen, Türme, Klöster und vieles mehr. Jedes neue Gebäude verändert, wozu deine Siedlung als Nächstes fähig ist.",
       "imageAlt": "Das Baumenü über einer Siedlung, in der Ferne eine feindliche Burg"
     },
-    "explore": {
-      "title": "Erkunden",
-      "text": "Entdecke Wälder, Berge, Flüsse, Küsten und gefährliche Wildnis. Die Karte verbirgt sowohl die Rohstoffe als auch das, was sie bewacht.",
-      "imageAlt": "Die Pergamentkarte mit dem eigenen grünen Gebiet neben dem violetten Reich des Rivalen"
-    },
     "manage": {
       "title": "Verwalten",
-      "text": "Halte Bevölkerung, Rohstoffe, Bau und Militärstärke im Gleichgewicht. Jeder ausgebildete Soldat ist ein Dorfbewohner, der nicht mehr sammelt.",
+      "text": "Halte Bevölkerung, Wohnraum, Versorgung und Militärstärke im Gleichgewicht. Jeder Soldat, den du ausbildest, ist ein Arbeiter, der nicht mehr sammelt – und alle wollen essen.",
       "imageAlt": "Die Kasernen-Oberfläche mit Garnisonsplätzen und einem Ausbildungsbalken"
+    },
+    "command": {
+      "title": "Befehlen",
+      "text": "Befehle bleiben bestehen: Einheiten führen sie zu Ende aus und du siehst jeden auf der Karte. Befiehl, ein ganzes Gebiet zu räumen oder abzuernten, und lege Gruppen auf Hotkeys.",
+      "imageAlt": "Ein Spieler wählt Rittertrupps mit einem Auswahlrechteck aus"
     },
     "fight": {
       "title": "Kämpfen",
       "text": "Führe deine Truppen in Echtzeitgefechten gegen Monster und rivalisierende Fürsten. Die Stellung zählt so viel wie die Zahl.",
       "imageAlt": "Ritter kämpfen auf einer Holzbrücke gegen Skelettkrieger und einen Minotaurus"
     },
-    "expand": {
-      "title": "Ausbreiten",
-      "text": "Gründe neue Siedlungen und schiebe deine Grenzen die Küste entlang und in die Hügel hinein.",
-      "imageAlt": "Ein Spieler wählt Rittertrupps mit einem Auswahlrechteck aus"
+    "sail": {
+      "title": "Segeln",
+      "text": "Lade bis zu sechs Einheiten auf ein Boot und überquere das Wasser. Kämpfe vom Deck aus, lande an einer feindlichen Küste und rechne damit, dass Rivalen auch über das Meer kommen.",
+      "imageAlt": "Ein kleines Boot mit zwei Bauern auf dem Weg zu einer Insel, die von Skelettkriegern gehalten wird"
+    },
+    "campaigns": {
+      "title": "Kampagnen",
+      "text": "Fünf Kampagnen mit 17 Karten, von der ersten bescheidenen Siedlung bis zur Landung bei Hastings, dem Feld von Clontarf, dem Felsen von Mont-Saint-Michel und den Straßen Galliens. Dazu fünf einzelne Karten für eine schnelle Partie."
+    },
+    "create": {
+      "title": "Erschaffen",
+      "text": "Zeichne deine eigene Welt im integrierten Karteneditor, mit Inseln, Hochebenen, Brücken, Kreaturen und rivalisierenden Königreichen. Teile sie als einzelne Datei und spiele Karten, die andere gebaut haben."
     },
     "conquer": {
       "title": "Erobern",
-      "text": "Mache aus einer winzigen Siedlung ein Königreich, das die ganze Welt beherrschen kann.",
+      "text": "Mache aus einer winzigen Siedlung ein Königreich, das die ganze Welt beherrschen kann. Rivalen sammeln, bauen und plündern nach denselben Regeln wie du, also ist jeder Sieg verdient.",
       "imageAlt": "Ein großes Heer aus Rittern, Speerträgern und Bogenschützen in Formation auf freiem Feld"
     }
   },
@@ -85,7 +93,7 @@
     "heading": "Screenshots",
     "lede": "Alle Bilder stammen aus dem Spiel in seinem heutigen Zustand.",
     "captions": {
-      "overview": "Eine Küstensiedlung an Tag 99, die Ritter bereit zum Aufbruch",
+      "overview": "Eine Küstensiedlung, die Ritter bereit zum Aufbruch",
       "build-menu": "Das Baumenü, am Horizont eine feindliche Burg",
       "world-map": "Die Strategiekarte: dein Gebiet in Grün, das des Rivalen in Violett",
       "army": "Ein Heer aus Rittern, Speerträgern und Bogenschützen in Formation",
@@ -96,7 +104,11 @@
       "settlement-troops": "Truppen sammeln sich zwischen den Gebäuden einer Küstensiedlung",
       "purple-castle": "Eine violette Burg und Wachtürme überragen eine belebte Siedlung",
       "skeleton-island": "Skelettkrieger bewachen eine Insel und ihre Goldvorkommen",
-      "spider-island": "Riesenspinnen durchstreifen bewaldete Inseln, die eine Brücke verbindet"
+      "spider-island": "Riesenspinnen durchstreifen bewaldete Inseln, die eine Brücke verbindet",
+      "boat-landing": "Ein Boot voller Bauern segelt zu einer Insel, die Skelettkrieger halten",
+      "plateau-fight": "Ein Scharmützel auf terrassierten Hochebenen, Treffer und Fehlschläge schweben über dem Kampf",
+      "goblin-fight": "Speertragende Goblins stürmen auf eine Ritterpatrouille zu, während das Spielprotokoll den Angriff meldet",
+      "pawn-house": "Ein Bauernhaus mit freien Betten, während Diebe die Vorräte plündern"
     }
   },
   "lightbox": {
@@ -120,10 +132,10 @@
       "text": "Goblins, Trolle, Gnolle und Schlimmeres halten genau das Land, das du willst. Manche sind ein Ärgernis. Manche beenden eine Expedition.",
       "imageAlt": "Skelettkrieger und ein Minotaurus verteidigen eine Insel hinter einer Brücke"
     },
-    "bestiary": {
-      "title": "Kenne deinen Feind",
-      "text": "Jede Kreatur hat einen Bestiarium-Eintrag mit Werten und etwas zu viel Persönlichkeit.",
-      "imageAlt": "Eine Pergament-Bestiariumkarte des Minotaurus mit Leben, Angriff und Tempo"
+    "highlands": {
+      "title": "Klippen und Anhöhen",
+      "text": "Hochebenen mit Klippen und schmalen Treppen machen Hügelkämme zu Festungen. Ein Kamm ist nur so stark wie seine einzige Treppe.",
+      "imageAlt": "Terrassierte Hochebenen mit Felswänden, auf denen Einheiten gegen Vogelscheuchen kämpfen"
     }
   },
   "media": {
@@ -136,9 +148,10 @@
   },
   "roadmap": {
     "heading": "In Entwicklung",
-    "lede": "Castlefolk entsteht öffentlich. Hier steht, was heute schon funktioniert und was noch entsteht. Keine Termine — fertig ist es, wenn es gut ist.",
+    "lede": "Castlefolk entsteht öffentlich. Alles mit Häkchen funktioniert heute schon im Spiel; die leeren Kreise sind Ideen, die wir umsetzen wollen. Keine Termine — fertig ist es, wenn es gut ist.",
     "done": "Fertig",
     "wip": "In Arbeit",
+    "planned": "Geplant",
     "statusLegend": "Status",
     "groups": {
       "world": "Welt",
@@ -148,23 +161,27 @@
     },
     "items": {
       "settlements": "Siedlungen",
-      "roads": "Straßen",
-      "resourceNodes": "Rohstoffvorkommen",
+      "seaTravel": "Boote und Seereisen",
+      "plateaus": "Hochebenen und Treppen",
+      "mapEditor": "Karteneditor und Karten teilen",
       "gathering": "Rohstoffgewinnung",
+      "upkeep": "Unterhalt und Hunger",
       "population": "Bevölkerungssimulation",
       "buildings": "Gebäudeausbau",
       "recruitment": "Einheitenrekrutierung",
+      "orders": "Dauerbefehle und Einheitengruppen",
       "enemyAi": "Gegner-KI",
-      "warfare": "Krieg zwischen Königreichen",
+      "raids": "KI-Überfälle und Verteidigung",
       "aiKingdoms": "KI-Königreiche",
+      "campaigns": "Kampagnen und Aufträge",
+      "victory": "Siegbedingungen",
       "diplomacy": "Diplomatie",
-      "technologies": "Technologien",
-      "victory": "Siegbedingungen"
+      "technologies": "Technologien"
     }
   },
   "cta": {
     "heading": "Dein Königreich wartet.",
-    "text": "Baue deine Siedlung. Stelle dein Heer auf. Verteidige dein Volk. Erobere die Welt.",
+    "text": "Baue deine Siedlung. Stelle dein Heer auf. Segle übers Meer. Hol dir die Krone.",
     "button": "Castlefolk auf Steam merken",
     "note": "Auf die Wunschliste zu setzen zeigt uns, dass es gewünscht wird — und erinnert dich am Tag des Releases."
   },
