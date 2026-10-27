@@ -63,6 +63,10 @@
       "url": "https://store.steampowered.com/app/5251590/"
     },
     {
+      "id": "demo",
+      "url": "https://store.steampowered.com/app/5393060/"
+    },
+    {
       "id": "youtube",
       "url": "https://www.youtube.com/@PeikkoLabs"
     },
@@ -304,5 +308,6 @@
         }
       ]
     }
-  ]
+  ],
+  "demoUrl": "https://store.steampowered.com/app/5393060/"
 }

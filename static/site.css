@@ -940,6 +940,20 @@ a {
   font-size: 1.1em;
   color: #f0e6d2;
 }
+.cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.cta .btn--ghost {
+  --btn-fg: var(--cream);
+  --btn-edge: rgba(239, 227, 196, 0.75);
+  background: rgba(20, 15, 10, 0.25);
+}
+.cta .btn--ghost:hover {
+  background: rgba(20, 15, 10, 0.45);
+}
 .cta__note {
   margin: 1.25rem 0 0;
   font-size: 0.9rem;

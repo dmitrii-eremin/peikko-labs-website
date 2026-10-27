@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Costruisci. Governa. Conquista.",
-    "description": "Uno strategico pixel art rilassato: costruisci un regno, comanda battaglie in tempo reale, naviga verso nuove coste e affronta regni rivali che giocano con le tue stesse regole. 22 mappe, 5 campagne e un editor di mappe integrato.",
+    "description": "Uno strategico pixel art rilassato: costruisci un regno, comanda battaglie in tempo reale, naviga verso nuove coste e affronta regni rivali che giocano con le tue stesse regole. 22 mappe, 5 campagne e un editor di mappe integrato. Demo gratuita su Steam.",
     "ogAlt": "Un insediamento di Castlefolk circondato dalla foresta, con cavalieri radunati sul prato"
   },
   "langName": "Italiano",
@@ -25,7 +25,7 @@
     "lede": "Costruisci un insediamento, sfama il tuo popolo, raduna un esercito e salpa per conquistare una corona, in uno strategico in tempo reale rilassato che non ti mette mai fretta.",
     "wishlist": "Aggiungi alla lista dei desideri su Steam",
     "trailer": "Guarda il trailer",
-    "demo": "Demo gratuita (prossimamente)",
+    "demo": "Gioca alla demo gratuita",
     "madeWith": "Un gioco di strategia in pixel art creato da Peikko Labs",
     "imageAlt": "Un villaggio di Castlefolk con case in pietra e legno vicino al mare e squadre di cavalieri e lancieri sul prato"
   },
@@ -183,12 +183,14 @@
     "heading": "Il tuo regno ti aspetta.",
     "text": "Costruisci il tuo insediamento. Raduna il tuo esercito. Attraversa il mare. Prendi la corona.",
     "button": "Aggiungi Castlefolk alla lista dei desideri su Steam",
-    "note": "Aggiungerlo alla lista dei desideri ci mostra il tuo interesse e ti ricorda il giorno dell’uscita."
+    "demo": "Prova la demo gratuita",
+    "note": "Aggiungerlo alla lista dei desideri ci mostra il tuo interesse e ti ricorda il giorno dell’uscita. La demo gratuita è già disponibile su Steam."
   },
   "links": {
     "heading": "Segui il viaggio",
     "lede": "Novità sullo sviluppo, video e qualche disastro occasionale.",
     "steam": "Steam",
+    "demo": "Demo su Steam",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

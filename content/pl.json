@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Buduj. Rządź. Podbijaj.",
-    "description": "Spokojna strategia w stylu pixel art: zbuduj królestwo, dowodź bitwami w czasie rzeczywistym, wypłyń ku nowym brzegom i stań naprzeciw rywalizujących królestw, które grają według tych samych zasad co ty. 22 mapy, 5 kampanii i wbudowany edytor map.",
+    "description": "Spokojna strategia w stylu pixel art: zbuduj królestwo, dowodź bitwami w czasie rzeczywistym, wypłyń ku nowym brzegom i stań naprzeciw rywalizujących królestw, które grają według tych samych zasad co ty. 22 mapy, 5 kampanii i wbudowany edytor map. Darmowe demo na Steamie.",
     "ogAlt": "Osada w Castlefolk otoczona lasem, z rycerzami zgromadzonymi na trawie"
   },
   "langName": "Polski",
@@ -25,7 +25,7 @@
     "lede": "Zbuduj osadę, nakarm swój lud, stwórz armię i wypłyń po koronę w spokojnej strategii czasu rzeczywistego, która nigdy cię nie pogania.",
     "wishlist": "Dodaj do listy życzeń na Steam",
     "trailer": "Obejrzyj zwiastun",
-    "demo": "Darmowe demo (wkrótce)",
+    "demo": "Zagraj w darmowe demo",
     "madeWith": "Gra strategiczna w stylu pixel art stworzona przez Peikko Labs",
     "imageAlt": "Nadmorska wioska w Castlefolk z domami z kamienia i drewna oraz oddziałami rycerzy i włóczników na trawie"
   },
@@ -183,12 +183,14 @@
     "heading": "Twoje królestwo czeka.",
     "text": "Zbuduj osadę. Stwórz armię. Przepłyń morze. Sięgnij po koronę.",
     "button": "Dodaj Castlefolk do listy życzeń na Steam",
-    "note": "Dodanie do listy życzeń pokazuje nam twoje zainteresowanie i przypomni ci o premierze."
+    "demo": "Wypróbuj darmowe demo",
+    "note": "Dodanie do listy życzeń pokazuje nam twoje zainteresowanie i przypomni ci o premierze. Darmowe demo jest już dostępne na Steamie."
   },
   "links": {
     "heading": "Śledź postępy",
     "lede": "Wieści z prac nad grą, filmy i okazjonalne katastrofy.",
     "steam": "Steam",
+    "demo": "Demo na Steamie",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

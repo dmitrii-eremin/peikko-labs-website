@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Build. Rule. Conquer.",
-    "description": "A relaxed pixel-art strategy game: build a kingdom, command real-time battles, sail to new shores and face rival kingdoms that play by the same rules as you. 22 maps, 5 campaigns and a built-in map editor.",
+    "description": "A relaxed pixel-art strategy game: build a kingdom, command real-time battles, sail to new shores and face rival kingdoms that play by the same rules as you. 22 maps, 5 campaigns and a built-in map editor. Free demo on Steam.",
     "ogAlt": "A Castlefolk settlement surrounded by forest, with knights massed on the grass"
   },
   "langName": "English",
@@ -25,7 +25,7 @@
     "lede": "Build a settlement, feed your people, raise an army and sail out to take a crown, in a relaxed real-time strategy game that never rushes you.",
     "wishlist": "Wishlist on Steam",
     "trailer": "Watch trailer",
-    "demo": "Free demo (coming soon)",
+    "demo": "Play the free demo",
     "madeWith": "A pixel-art strategy game made by Peikko Labs",
     "imageAlt": "A Castlefolk village of stone and timber houses beside the sea, with squads of knights and spearmen on the grass"
   },
@@ -183,12 +183,14 @@
     "heading": "Your kingdom awaits.",
     "text": "Build your settlement. Raise your army. Sail across the water. Take the crown.",
     "button": "Wishlist Castlefolk on Steam",
-    "note": "Wishlisting tells us people want this, and reminds you the day it launches."
+    "demo": "Try the free demo",
+    "note": "Wishlisting tells us people want this, and reminds you the day it launches. The free demo is on Steam right now."
   },
   "links": {
     "heading": "Follow along",
     "lede": "Development updates, clips and the occasional disaster.",
     "steam": "Steam",
+    "demo": "Steam demo",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

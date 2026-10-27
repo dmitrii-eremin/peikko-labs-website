@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Bâtissez. Régnez. Conquérez.",
-    "description": "Un jeu de stratégie pixel art tout en détente : bâtissez un royaume, menez des batailles en temps réel, cinglez vers de nouveaux rivages et affrontez des royaumes rivaux qui jouent avec les mêmes règles que vous. 22 cartes, 5 campagnes et un éditeur de cartes intégré.",
+    "description": "Un jeu de stratégie pixel art tout en détente : bâtissez un royaume, menez des batailles en temps réel, cinglez vers de nouveaux rivages et affrontez des royaumes rivaux qui jouent avec les mêmes règles que vous. 22 cartes, 5 campagnes et un éditeur de cartes intégré. Démo gratuite sur Steam.",
     "ogAlt": "Une colonie de Castlefolk entourée de forêt, avec des chevaliers rassemblés dans l’herbe"
   },
   "langName": "Français",
@@ -25,7 +25,7 @@
     "lede": "Bâtissez une colonie, nourrissez votre peuple, levez une armée et prenez la mer pour conquérir une couronne, dans un jeu de stratégie en temps réel tranquille qui ne vous presse jamais.",
     "wishlist": "Ajouter à la liste de souhaits Steam",
     "trailer": "Voir la bande-annonce",
-    "demo": "Démo gratuite (bientôt disponible)",
+    "demo": "Jouer à la démo gratuite",
     "madeWith": "Un jeu de stratégie en pixel art créé par Peikko Labs",
     "imageAlt": "Un village de Castlefolk aux maisons de pierre et de bois en bord de mer, avec des escouades de chevaliers et de lanciers dans l’herbe"
   },
@@ -183,12 +183,14 @@
     "heading": "Votre royaume vous attend.",
     "text": "Bâtissez votre colonie. Levez votre armée. Traversez la mer. Prenez la couronne.",
     "button": "Ajouter Castlefolk à votre liste de souhaits Steam",
-    "note": "L’ajout à votre liste de souhaits nous montre votre intérêt et vous rappelle la sortie du jeu."
+    "demo": "Essayer la démo gratuite",
+    "note": "L’ajout à votre liste de souhaits nous montre votre intérêt et vous rappelle la sortie du jeu. La démo gratuite est disponible dès maintenant sur Steam."
   },
   "links": {
     "heading": "Suivez l’aventure",
     "lede": "Des nouvelles du développement, des vidéos et quelques catastrophes.",
     "steam": "Steam",
+    "demo": "Démo Steam",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

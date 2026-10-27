@@ -224,6 +224,8 @@ function buildContext(lang) {
     roadmap,
     videos,
     hasSteam: Boolean(site.steamUrl),
+    hasDemo: Boolean(site.demoUrl),
+    demoUrl: site.demoUrl,
     hasTrailer: Boolean(site.trailerId),
     hasVideos: videos.length > 0,
     hasLinks: links.length > 0,

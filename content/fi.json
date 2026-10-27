@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Rakenna. Hallitse. Valloita.",
-    "description": "Rento pikselitaiteella tehty strategiapeli: rakenna valtakunta, komenna reaaliaikaisia taisteluita, purjehdi uusille rannoille ja kohtaa kilpailevia valtakuntia, jotka pelaavat samoilla säännöillä kuin sinä. 22 karttaa, 5 kampanjaa ja sisäänrakennettu karttaeditori.",
+    "description": "Rento pikselitaiteella tehty strategiapeli: rakenna valtakunta, komenna reaaliaikaisia taisteluita, purjehdi uusille rannoille ja kohtaa kilpailevia valtakuntia, jotka pelaavat samoilla säännöillä kuin sinä. 22 karttaa, 5 kampanjaa ja sisäänrakennettu karttaeditori. Ilmainen demo Steamissa.",
     "ogAlt": "Castlefolk-asutus metsän ympäröimänä, ritarit koottuina nurmelle"
   },
   "langName": "Suomi",
@@ -25,7 +25,7 @@
     "lede": "Rakenna asutus, ruoki väkesi, kokoa armeija ja lähde purjehtimaan kohti kruunua rennossa reaaliaikastrategiassa, joka ei hoputa sinua.",
     "wishlist": "Lisää Steam-toivelistalle",
     "trailer": "Katso traileri",
-    "demo": "Ilmainen demo (tulossa pian)",
+    "demo": "Pelaa ilmaista demoa",
     "madeWith": "Pikselitaiteinen strategiapeli, jonka on tehnyt Peikko Labs",
     "imageAlt": "Castlefolk-kylä kivi- ja hirsitaloineen meren rannalla, nurmella ritari- ja keihäsmiesryhmiä"
   },
@@ -183,12 +183,14 @@
     "heading": "Valtakuntasi odottaa.",
     "text": "Rakenna asutuksesi. Kokoa armeijasi. Purjehdi meren yli. Ota kruunu.",
     "button": "Lisää Castlefolk Steam-toivelistalle",
-    "note": "Toivelistalle lisääminen kertoo meille, että peliä halutaan, ja muistuttaa sinua julkaisupäivänä."
+    "demo": "Kokeile ilmaista demoa",
+    "note": "Toivelistalle lisääminen kertoo meille, että peliä halutaan, ja muistuttaa sinua julkaisupäivänä. Ilmainen demo on Steamissa jo nyt."
   },
   "links": {
     "heading": "Seuraa kehitystä",
     "lede": "Kehityspäivityksiä, klippejä ja satunnaisia katastrofeja.",
     "steam": "Steam",
+    "demo": "Steam-demo",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

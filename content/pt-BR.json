@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Construa. Governe. Conquiste.",
-    "description": "Um jogo de estratégia em pixel art, tranquilo: construa um reino, comande batalhas em tempo real, navegue até novas costas e enfrente reinos rivais que jogam pelas mesmas regras que você. 22 mapas, 5 campanhas e um editor de mapas integrado.",
+    "description": "Um jogo de estratégia em pixel art, tranquilo: construa um reino, comande batalhas em tempo real, navegue até novas costas e enfrente reinos rivais que jogam pelas mesmas regras que você. 22 mapas, 5 campanhas e um editor de mapas integrado. Demo gratuita na Steam.",
     "ogAlt": "Um povoado de Castlefolk cercado por florestas, com cavaleiros reunidos no gramado"
   },
   "langName": "Português (Brasil)",
@@ -25,7 +25,7 @@
     "lede": "Construa um povoado, alimente seu povo, forme um exército e zarpe em busca de uma coroa, em um jogo de estratégia em tempo real tranquilo, que nunca te apressa.",
     "wishlist": "Adicionar à lista de desejos no Steam",
     "trailer": "Assistir ao trailer",
-    "demo": "Demo grátis (em breve)",
+    "demo": "Jogar a demo gratuita",
     "madeWith": "Um jogo de estratégia em pixel art criado pela Peikko Labs",
     "imageAlt": "Uma vila de Castlefolk com casas de pedra e madeira à beira-mar e grupos de cavaleiros e lanceiros no gramado"
   },
@@ -183,12 +183,14 @@
     "heading": "Seu reino espera por você.",
     "text": "Construa seu povoado. Forme seu exército. Atravesse o mar. Conquiste a coroa.",
     "button": "Adicionar Castlefolk à lista de desejos no Steam",
-    "note": "Adicionar à lista de desejos mostra seu interesse e lembra você no dia do lançamento."
+    "demo": "Experimente a demo gratuita",
+    "note": "Adicionar à lista de desejos mostra seu interesse e lembra você no dia do lançamento. A demo gratuita já está disponível na Steam."
   },
   "links": {
     "heading": "Acompanhe a jornada",
     "lede": "Novidades do desenvolvimento, vídeos e um desastre de vez em quando.",
     "steam": "Steam",
+    "demo": "Demo na Steam",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",

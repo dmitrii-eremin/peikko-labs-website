@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Castlefolk — Construye. Gobierna. Conquista.",
-    "description": "Un relajado juego de estrategia pixel art: construye un reino, dirige batallas en tiempo real, navega hacia nuevas costas y enfréntate a reinos rivales que juegan con tus mismas reglas. 22 mapas, 5 campañas y un editor de mapas integrado.",
+    "description": "Un relajado juego de estrategia pixel art: construye un reino, dirige batallas en tiempo real, navega hacia nuevas costas y enfréntate a reinos rivales que juegan con tus mismas reglas. 22 mapas, 5 campañas y un editor de mapas integrado. Demo gratis en Steam.",
     "ogAlt": "Un asentamiento de Castlefolk rodeado de bosque, con caballeros agrupados sobre la hierba"
   },
   "langName": "Español",
@@ -25,7 +25,7 @@
     "lede": "Levanta un asentamiento, alimenta a tu gente, forma un ejército y zarpa en busca de una corona, en un juego de estrategia en tiempo real relajado que nunca te mete prisa.",
     "wishlist": "Añadir a la lista de deseados",
     "trailer": "Ver el tráiler",
-    "demo": "Demo gratuita (próximamente)",
+    "demo": "Jugar la demo gratis",
     "madeWith": "Un juego de estrategia en pixel art creado por Peikko Labs",
     "imageAlt": "Una aldea de Castlefolk con casas de piedra y madera junto al mar, con escuadras de caballeros y lanceros sobre la hierba"
   },
@@ -183,12 +183,14 @@
     "heading": "Tu reino te espera.",
     "text": "Levanta tu asentamiento. Forma tu ejército. Cruza el mar. Toma la corona.",
     "button": "Añadir Castlefolk a deseados en Steam",
-    "note": "Añadirlo a deseados nos dice que la gente lo quiere, y te avisa el día del lanzamiento."
+    "demo": "Prueba la demo gratis",
+    "note": "Añadirlo a deseados nos dice que la gente lo quiere, y te avisa el día del lanzamiento. La demo gratuita ya está en Steam."
   },
   "links": {
     "heading": "Sigue el desarrollo",
     "lede": "Novedades de desarrollo, clips y algún que otro desastre.",
     "steam": "Steam",
+    "demo": "Demo en Steam",
     "youtube": "YouTube",
     "tiktok": "TikTok",
     "discord": "Discord",
